@@ -1,0 +1,87 @@
+{
+  "template": "boston",
+  "index_patterns": [
+      "boston*"
+    ],
+  "settings": {
+     "index.refresh_interval": "5s"
+  },
+  "mappings": {
+      "_doc": {
+        "dynamic": false,
+        "_source": {
+          "enabled": false
+        },
+        "properties": {
+          "property_name": {
+            "type": "keyword"
+          },
+          "reported": {
+            "type": "keyword"
+          },
+          "property_type": {
+            "type": "keyword"
+          },
+          "address": {
+            "type": "text",
+            "fields": {
+              "keyword":{
+                "type": "keyword"
+              }
+            }
+          },
+          "zip_code": {
+            "type": "keyword"
+          },
+          "gross_area": {
+            "type": "integer"
+          },
+          "site_eui": {
+            "type": "float"
+          },
+          "energy_star_score": {
+            "type": "integer"
+          },
+          "property_uses": {
+            "type": "keyword"
+          },
+          "year_built": {
+            "type": "keyword"
+          },
+          "ghg_emissions": {
+            "type": "float"
+          },
+          "ghg_intensity": {
+            "type": "float"
+          },
+          "total_site_energy": {
+            "type": "float"
+          },
+          "percent_electricity": {
+            "type": "float"
+          },
+          "percent_gas": {
+            "type": "float"
+          },
+          "percent_steam": {
+            "type": "float"
+          },
+          "water_intensity": {
+            "type": "float"
+          },
+          "onsite_renewable": {
+            "type": "integer"
+          },
+          "user_submitted_info": {
+            "type": "text"
+          },
+          "user_submitted_link": {
+            "type": "text"
+          },
+          "tax_parcel": {
+            "type": "keyword"
+          }
+        }
+      }
+    }
+  }

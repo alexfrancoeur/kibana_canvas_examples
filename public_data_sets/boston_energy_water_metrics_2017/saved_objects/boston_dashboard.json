@@ -1,0 +1,257 @@
+[
+  {
+    "_id": "0f613bf0-b046-11e8-ad76-fd5c8ab4c1f8",
+    "_type": "dashboard",
+    "_source": {
+      "title": "[Boston] GHG Emissions",
+      "hits": 0,
+      "description": "",
+      "panelsJSON": "[{\"embeddableConfig\":{},\"gridData\":{\"x\":0,\"y\":0,\"w\":10,\"h\":13,\"i\":\"1\"},\"id\":\"c2c60730-b045-11e8-ad76-fd5c8ab4c1f8\",\"panelIndex\":\"1\",\"type\":\"visualization\",\"version\":\"7.0.0-alpha1-SNAPSHOT\"},{\"embeddableConfig\":{},\"gridData\":{\"x\":10,\"y\":0,\"w\":11,\"h\":13,\"i\":\"2\"},\"id\":\"f50270d0-b045-11e8-ad76-fd5c8ab4c1f8\",\"panelIndex\":\"2\",\"type\":\"visualization\",\"version\":\"7.0.0-alpha1-SNAPSHOT\"},{\"embeddableConfig\":{},\"gridData\":{\"x\":21,\"y\":0,\"w\":9,\"h\":13,\"i\":\"4\"},\"id\":\"96d61820-b047-11e8-ad76-fd5c8ab4c1f8\",\"panelIndex\":\"4\",\"type\":\"visualization\",\"version\":\"7.0.0-alpha1-SNAPSHOT\"},{\"embeddableConfig\":{},\"gridData\":{\"x\":39,\"y\":0,\"w\":9,\"h\":13,\"i\":\"6\"},\"id\":\"b4999210-b047-11e8-ad76-fd5c8ab4c1f8\",\"panelIndex\":\"6\",\"type\":\"visualization\",\"version\":\"7.0.0-alpha1-SNAPSHOT\"},{\"embeddableConfig\":{},\"gridData\":{\"x\":0,\"y\":13,\"w\":10,\"h\":13,\"i\":\"7\"},\"id\":\"31cd4470-b048-11e8-ad76-fd5c8ab4c1f8\",\"panelIndex\":\"7\",\"type\":\"visualization\",\"version\":\"7.0.0-alpha1-SNAPSHOT\"},{\"embeddableConfig\":{},\"gridData\":{\"x\":10,\"y\":13,\"w\":11,\"h\":13,\"i\":\"8\"},\"id\":\"70440540-b048-11e8-ad76-fd5c8ab4c1f8\",\"panelIndex\":\"8\",\"type\":\"visualization\",\"version\":\"7.0.0-alpha1-SNAPSHOT\"},{\"embeddableConfig\":{},\"gridData\":{\"x\":21,\"y\":13,\"w\":9,\"h\":13,\"i\":\"9\"},\"id\":\"40837110-b048-11e8-ad76-fd5c8ab4c1f8\",\"panelIndex\":\"9\",\"type\":\"visualization\",\"version\":\"7.0.0-alpha1-SNAPSHOT\"},{\"embeddableConfig\":{},\"gridData\":{\"x\":30,\"y\":13,\"w\":9,\"h\":13,\"i\":\"10\"},\"id\":\"a92b1660-b047-11e8-ad76-fd5c8ab4c1f8\",\"panelIndex\":\"10\",\"type\":\"visualization\",\"version\":\"7.0.0-alpha1-SNAPSHOT\"},{\"embeddableConfig\":{},\"gridData\":{\"x\":39,\"y\":13,\"w\":9,\"h\":13,\"i\":\"11\"},\"id\":\"7f6d8d20-b048-11e8-ad76-fd5c8ab4c1f8\",\"panelIndex\":\"11\",\"type\":\"visualization\",\"version\":\"7.0.0-alpha1-SNAPSHOT\"},{\"embeddableConfig\":{},\"gridData\":{\"x\":30,\"y\":0,\"w\":9,\"h\":13,\"i\":\"12\"},\"id\":\"5f59e1a0-b048-11e8-ad76-fd5c8ab4c1f8\",\"panelIndex\":\"12\",\"type\":\"visualization\",\"version\":\"7.0.0-alpha1-SNAPSHOT\"},{\"embeddableConfig\":{},\"gridData\":{\"x\":0,\"y\":26,\"w\":10,\"h\":13,\"i\":\"13\"},\"id\":\"d12a4670-b049-11e8-ad76-fd5c8ab4c1f8\",\"panelIndex\":\"13\",\"type\":\"visualization\",\"version\":\"7.0.0-alpha1-SNAPSHOT\"},{\"embeddableConfig\":{},\"gridData\":{\"x\":10,\"y\":26,\"w\":11,\"h\":13,\"i\":\"14\"},\"id\":\"06be6690-b04a-11e8-ad76-fd5c8ab4c1f8\",\"panelIndex\":\"14\",\"type\":\"visualization\",\"version\":\"7.0.0-alpha1-SNAPSHOT\"},{\"embeddableConfig\":{},\"gridData\":{\"x\":21,\"y\":26,\"w\":9,\"h\":13,\"i\":\"15\"},\"id\":\"e2763920-b049-11e8-ad76-fd5c8ab4c1f8\",\"panelIndex\":\"15\",\"type\":\"visualization\",\"version\":\"7.0.0-alpha1-SNAPSHOT\"},{\"embeddableConfig\":{},\"gridData\":{\"x\":30,\"y\":26,\"w\":9,\"h\":13,\"i\":\"16\"},\"id\":\"fc7d2040-b049-11e8-ad76-fd5c8ab4c1f8\",\"panelIndex\":\"16\",\"type\":\"visualization\",\"version\":\"7.0.0-alpha1-SNAPSHOT\"},{\"embeddableConfig\":{},\"gridData\":{\"x\":39,\"y\":26,\"w\":9,\"h\":13,\"i\":\"17\"},\"id\":\"172f3b80-b04a-11e8-ad76-fd5c8ab4c1f8\",\"panelIndex\":\"17\",\"type\":\"visualization\",\"version\":\"7.0.0-alpha1-SNAPSHOT\"}]",
+      "optionsJSON": "{\"darkTheme\":false,\"hidePanelTitles\":false,\"useMargins\":true}",
+      "version": 1,
+      "timeRestore": true,
+      "timeTo": "now",
+      "timeFrom": "now-5y",
+      "refreshInterval": {
+        "pause": true,
+        "value": 0
+      },
+      "kibanaSavedObjectMeta": {
+        "searchSourceJSON": "{\"query\":{\"language\":\"lucene\",\"query\":\"\"},\"filter\":[]}"
+      }
+    }
+  },
+  {
+    "_id": "7c9483e0-b045-11e8-ad76-fd5c8ab4c1f8",
+    "_type": "index-pattern",
+    "_source": {
+      "title": "boston",
+      "timeFieldName": "@timestamp",
+      "fields": "[{\"name\":\"@timestamp\",\"type\":\"date\",\"count\":0,\"scripted\":false,\"searchable\":true,\"aggregatable\":true,\"readFromDocValues\":true},{\"name\":\"@version\",\"type\":\"string\",\"count\":0,\"scripted\":false,\"searchable\":true,\"aggregatable\":false,\"readFromDocValues\":false},{\"name\":\"@version.keyword\",\"type\":\"string\",\"count\":0,\"scripted\":false,\"searchable\":true,\"aggregatable\":true,\"readFromDocValues\":true},{\"name\":\"_id\",\"type\":\"string\",\"count\":0,\"scripted\":false,\"searchable\":true,\"aggregatable\":true,\"readFromDocValues\":false},{\"name\":\"_index\",\"type\":\"string\",\"count\":0,\"scripted\":false,\"searchable\":true,\"aggregatable\":true,\"readFromDocValues\":false},{\"name\":\"_score\",\"type\":\"number\",\"count\":0,\"scripted\":false,\"searchable\":false,\"aggregatable\":false,\"readFromDocValues\":false},{\"name\":\"_source\",\"type\":\"_source\",\"count\":0,\"scripted\":false,\"searchable\":false,\"aggregatable\":false,\"readFromDocValues\":false},{\"name\":\"_type\",\"type\":\"string\",\"count\":0,\"scripted\":false,\"searchable\":true,\"aggregatable\":true,\"readFromDocValues\":false},{\"name\":\"address\",\"type\":\"string\",\"count\":0,\"scripted\":false,\"searchable\":true,\"aggregatable\":false,\"readFromDocValues\":false},{\"name\":\"address.keyword\",\"type\":\"string\",\"count\":0,\"scripted\":false,\"searchable\":true,\"aggregatable\":true,\"readFromDocValues\":true},{\"name\":\"energy_star_certified\",\"type\":\"string\",\"count\":0,\"scripted\":false,\"searchable\":true,\"aggregatable\":false,\"readFromDocValues\":false},{\"name\":\"energy_star_certified.keyword\",\"type\":\"string\",\"count\":0,\"scripted\":false,\"searchable\":true,\"aggregatable\":true,\"readFromDocValues\":true},{\"name\":\"energy_star_score\",\"type\":\"number\",\"count\":0,\"scripted\":false,\"searchable\":true,\"aggregatable\":true,\"readFromDocValues\":true},{\"name\":\"ghg_emissions\",\"type\":\"number\",\"count\":0,\"scripted\":false,\"searchable\":true,\"aggregatable\":true,\"readFromDocValues\":true},{\"name\":\"ghg_intensity\",\"type\":\"number\",\"count\":0,\"scripted\":false,\"searchable\":true,\"aggregatable\":true,\"readFromDocValues\":true},{\"name\":\"gross_area\",\"type\":\"number\",\"count\":0,\"scripted\":false,\"searchable\":true,\"aggregatable\":true,\"readFromDocValues\":true},{\"name\":\"host\",\"type\":\"string\",\"count\":0,\"scripted\":false,\"searchable\":true,\"aggregatable\":false,\"readFromDocValues\":false},{\"name\":\"host.keyword\",\"type\":\"string\",\"count\":0,\"scripted\":false,\"searchable\":true,\"aggregatable\":true,\"readFromDocValues\":true},{\"name\":\"onsite_renewable\",\"type\":\"number\",\"count\":0,\"scripted\":false,\"searchable\":true,\"aggregatable\":true,\"readFromDocValues\":true},{\"name\":\"percent_electricity\",\"type\":\"number\",\"count\":0,\"scripted\":false,\"searchable\":true,\"aggregatable\":true,\"readFromDocValues\":true},{\"name\":\"percent_gas\",\"type\":\"number\",\"count\":0,\"scripted\":false,\"searchable\":true,\"aggregatable\":true,\"readFromDocValues\":true},{\"name\":\"percent_steam\",\"type\":\"number\",\"count\":0,\"scripted\":false,\"searchable\":true,\"aggregatable\":true,\"readFromDocValues\":true},{\"name\":\"property_name\",\"type\":\"string\",\"count\":0,\"scripted\":false,\"searchable\":true,\"aggregatable\":false,\"readFromDocValues\":false},{\"name\":\"property_name.keyword\",\"type\":\"string\",\"count\":0,\"scripted\":false,\"searchable\":true,\"aggregatable\":true,\"readFromDocValues\":true},{\"name\":\"property_type\",\"type\":\"string\",\"count\":0,\"scripted\":false,\"searchable\":true,\"aggregatable\":false,\"readFromDocValues\":false},{\"name\":\"property_type.keyword\",\"type\":\"string\",\"count\":0,\"scripted\":false,\"searchable\":true,\"aggregatable\":true,\"readFromDocValues\":true},{\"name\":\"property_uses\",\"type\":\"string\",\"count\":0,\"scripted\":false,\"searchable\":true,\"aggregatable\":false,\"readFromDocValues\":false},{\"name\":\"property_uses.keyword\",\"type\":\"string\",\"count\":0,\"scripted\":false,\"searchable\":true,\"aggregatable\":true,\"readFromDocValues\":true},{\"name\":\"reported\",\"type\":\"string\",\"count\":0,\"scripted\":false,\"searchable\":true,\"aggregatable\":false,\"readFromDocValues\":false},{\"name\":\"reported.keyword\",\"type\":\"string\",\"count\":0,\"scripted\":false,\"searchable\":true,\"aggregatable\":true,\"readFromDocValues\":true},{\"name\":\"site_eui\",\"type\":\"number\",\"count\":0,\"scripted\":false,\"searchable\":true,\"aggregatable\":true,\"readFromDocValues\":true},{\"name\":\"tags\",\"type\":\"string\",\"count\":0,\"scripted\":false,\"searchable\":true,\"aggregatable\":false,\"readFromDocValues\":false},{\"name\":\"tags.keyword\",\"type\":\"string\",\"count\":0,\"scripted\":false,\"searchable\":true,\"aggregatable\":true,\"readFromDocValues\":true},{\"name\":\"tax_parcel\",\"type\":\"string\",\"count\":0,\"scripted\":false,\"searchable\":true,\"aggregatable\":false,\"readFromDocValues\":false},{\"name\":\"tax_parcel.keyword\",\"type\":\"string\",\"count\":0,\"scripted\":false,\"searchable\":true,\"aggregatable\":true,\"readFromDocValues\":true},{\"name\":\"total_site_energy\",\"type\":\"number\",\"count\":0,\"scripted\":false,\"searchable\":true,\"aggregatable\":true,\"readFromDocValues\":true},{\"name\":\"user_submitted_info\",\"type\":\"string\",\"count\":0,\"scripted\":false,\"searchable\":true,\"aggregatable\":false,\"readFromDocValues\":false},{\"name\":\"user_submitted_info.keyword\",\"type\":\"string\",\"count\":0,\"scripted\":false,\"searchable\":true,\"aggregatable\":true,\"readFromDocValues\":true},{\"name\":\"user_submitted_link\",\"type\":\"string\",\"count\":0,\"scripted\":false,\"searchable\":true,\"aggregatable\":false,\"readFromDocValues\":false},{\"name\":\"user_submitted_link.keyword\",\"type\":\"string\",\"count\":0,\"scripted\":false,\"searchable\":true,\"aggregatable\":true,\"readFromDocValues\":true},{\"name\":\"water_intensity\",\"type\":\"number\",\"count\":0,\"scripted\":false,\"searchable\":true,\"aggregatable\":true,\"readFromDocValues\":true},{\"name\":\"year_built\",\"type\":\"number\",\"count\":0,\"scripted\":false,\"searchable\":true,\"aggregatable\":true,\"readFromDocValues\":true},{\"name\":\"years_reported\",\"type\":\"string\",\"count\":0,\"scripted\":false,\"searchable\":true,\"aggregatable\":false,\"readFromDocValues\":false},{\"name\":\"years_reported.keyword\",\"type\":\"string\",\"count\":0,\"scripted\":false,\"searchable\":true,\"aggregatable\":true,\"readFromDocValues\":true},{\"name\":\"zip_code\",\"type\":\"string\",\"count\":0,\"scripted\":false,\"searchable\":true,\"aggregatable\":false,\"readFromDocValues\":false},{\"name\":\"zip_code.keyword\",\"type\":\"string\",\"count\":0,\"scripted\":false,\"searchable\":true,\"aggregatable\":true,\"readFromDocValues\":true}]"
+    }
+  },
+  {
+    "_id": "96d61820-b047-11e8-ad76-fd5c8ab4c1f8",
+    "_type": "visualization",
+    "_source": {
+      "title": "[Boston] Fenway Electricity Usage",
+      "visState": "{\"title\":\"[Boston] Fenway Electricity Usage\",\"type\":\"goal\",\"params\":{\"addTooltip\":true,\"addLegend\":false,\"isDisplayWarning\":false,\"type\":\"gauge\",\"gauge\":{\"verticalSplit\":false,\"autoExtend\":false,\"percentageMode\":true,\"gaugeType\":\"Arc\",\"gaugeStyle\":\"Full\",\"backStyle\":\"Full\",\"orientation\":\"vertical\",\"useRanges\":false,\"colorSchema\":\"Green to Red\",\"gaugeColorMode\":\"None\",\"colorsRange\":[{\"from\":0,\"to\":1}],\"invertColors\":false,\"labels\":{\"show\":true,\"color\":\"black\"},\"scale\":{\"show\":false,\"labels\":false,\"color\":\"#333\",\"width\":2},\"type\":\"meter\",\"style\":{\"bgFill\":\"#000\",\"bgColor\":false,\"labelColor\":false,\"subText\":\"\",\"fontSize\":60}}},\"aggs\":[{\"id\":\"1\",\"enabled\":true,\"type\":\"avg\",\"schema\":\"metric\",\"params\":{\"field\":\"percent_electricity\",\"customLabel\":\"Percent Electricity\"}}]}",
+      "uiStateJSON": "{\"vis\":{\"defaultColors\":{\"0 - 100\":\"rgb(0,104,55)\"}}}",
+      "description": "",
+      "version": 1,
+      "kibanaSavedObjectMeta": {
+        "searchSourceJSON": "{\"index\":\"7c9483e0-b045-11e8-ad76-fd5c8ab4c1f8\",\"query\":{\"query\":\"\",\"language\":\"lucene\"},\"filter\":[{\"meta\":{\"index\":\"7c9483e0-b045-11e8-ad76-fd5c8ab4c1f8\",\"negate\":false,\"disabled\":false,\"alias\":null,\"type\":\"phrase\",\"key\":\"property_name.keyword\",\"value\":\"Fenway Park\",\"params\":{\"query\":\"Fenway Park\",\"type\":\"phrase\"}},\"query\":{\"match\":{\"property_name.keyword\":{\"query\":\"Fenway Park\",\"type\":\"phrase\"}}},\"$state\":{\"store\":\"appState\"}}]}"
+      }
+    }
+  },
+  {
+    "_id": "b4999210-b047-11e8-ad76-fd5c8ab4c1f8",
+    "_type": "visualization",
+    "_source": {
+      "title": "[Boston] Fenway Steam Usage",
+      "visState": "{\"title\":\"[Boston] Fenway Steam Usage\",\"type\":\"goal\",\"params\":{\"addTooltip\":true,\"addLegend\":false,\"isDisplayWarning\":false,\"type\":\"gauge\",\"gauge\":{\"verticalSplit\":false,\"autoExtend\":false,\"percentageMode\":true,\"gaugeType\":\"Arc\",\"gaugeStyle\":\"Full\",\"backStyle\":\"Full\",\"orientation\":\"vertical\",\"useRanges\":false,\"colorSchema\":\"Green to Red\",\"gaugeColorMode\":\"None\",\"colorsRange\":[{\"from\":0,\"to\":1}],\"invertColors\":false,\"labels\":{\"show\":true,\"color\":\"black\"},\"scale\":{\"show\":false,\"labels\":false,\"color\":\"#333\",\"width\":2},\"type\":\"meter\",\"style\":{\"bgFill\":\"#000\",\"bgColor\":false,\"labelColor\":false,\"subText\":\"\",\"fontSize\":60}}},\"aggs\":[{\"id\":\"1\",\"enabled\":true,\"type\":\"avg\",\"schema\":\"metric\",\"params\":{\"field\":\"percent_steam\",\"customLabel\":\"Percent Steam\"}}]}",
+      "uiStateJSON": "{\"vis\":{\"defaultColors\":{\"0 - 100\":\"rgb(0,104,55)\"}}}",
+      "description": "",
+      "version": 1,
+      "kibanaSavedObjectMeta": {
+        "searchSourceJSON": "{\"index\":\"7c9483e0-b045-11e8-ad76-fd5c8ab4c1f8\",\"query\":{\"query\":\"\",\"language\":\"lucene\"},\"filter\":[{\"meta\":{\"index\":\"7c9483e0-b045-11e8-ad76-fd5c8ab4c1f8\",\"negate\":false,\"disabled\":false,\"alias\":null,\"type\":\"phrase\",\"key\":\"property_name.keyword\",\"value\":\"Fenway Park\",\"params\":{\"query\":\"Fenway Park\",\"type\":\"phrase\"}},\"query\":{\"match\":{\"property_name.keyword\":{\"query\":\"Fenway Park\",\"type\":\"phrase\"}}},\"$state\":{\"store\":\"appState\"}}]}"
+      }
+    }
+  },
+  {
+    "_id": "2dc5bb60-b047-11e8-ad76-fd5c8ab4c1f8",
+    "_type": "visualization",
+    "_source": {
+      "title": "[Boston] Average GHG Emissions by Building Year",
+      "visState": "{\"title\":\"[Boston] Average GHG Emissions by Building Year\",\"type\":\"histogram\",\"params\":{\"type\":\"histogram\",\"grid\":{\"categoryLines\":false,\"style\":{\"color\":\"#eee\"}},\"categoryAxes\":[{\"id\":\"CategoryAxis-1\",\"type\":\"category\",\"position\":\"bottom\",\"show\":true,\"style\":{},\"scale\":{\"type\":\"linear\"},\"labels\":{\"show\":true,\"truncate\":100},\"title\":{}}],\"valueAxes\":[{\"id\":\"ValueAxis-1\",\"name\":\"LeftAxis-1\",\"type\":\"value\",\"position\":\"left\",\"show\":true,\"style\":{},\"scale\":{\"type\":\"linear\",\"mode\":\"normal\"},\"labels\":{\"show\":true,\"rotate\":0,\"filter\":false,\"truncate\":100},\"title\":{\"text\":\"GHG Emissions (MTCO2e)\"}}],\"seriesParams\":[{\"show\":\"true\",\"type\":\"histogram\",\"mode\":\"stacked\",\"data\":{\"label\":\"GHG Emissions (MTCO2e)\",\"id\":\"1\"},\"valueAxis\":\"ValueAxis-1\",\"drawLinesBetweenPoints\":true,\"showCircles\":true}],\"addTooltip\":true,\"addLegend\":true,\"legendPosition\":\"right\",\"times\":[],\"addTimeMarker\":false},\"aggs\":[{\"id\":\"1\",\"enabled\":true,\"type\":\"avg\",\"schema\":\"metric\",\"params\":{\"field\":\"ghg_emissions\",\"customLabel\":\"GHG Emissions (MTCO2e)\"}},{\"id\":\"2\",\"enabled\":true,\"type\":\"range\",\"schema\":\"segment\",\"params\":{\"field\":\"year_built\",\"ranges\":[{\"from\":1800,\"to\":1850},{\"from\":1850,\"to\":1900},{\"from\":1900,\"to\":1950},{\"from\":1950,\"to\":2000},{\"from\":2000,\"to\":2053}]}}]}",
+      "uiStateJSON": "{}",
+      "description": "",
+      "version": 1,
+      "kibanaSavedObjectMeta": {
+        "searchSourceJSON": "{\"index\":\"7c9483e0-b045-11e8-ad76-fd5c8ab4c1f8\",\"query\":{\"language\":\"lucene\",\"query\":\"\"},\"filter\":[]}"
+      }
+    }
+  },
+  {
+    "_id": "f50270d0-b045-11e8-ad76-fd5c8ab4c1f8",
+    "_type": "visualization",
+    "_source": {
+      "title": "[Boston] Fenway GHG Emissions",
+      "visState": "{\"title\":\"[Boston] Fenway GHG Emissions\",\"type\":\"metric\",\"params\":{\"addTooltip\":true,\"addLegend\":false,\"type\":\"metric\",\"metric\":{\"percentageMode\":false,\"useRanges\":false,\"colorSchema\":\"Green to Red\",\"metricColorMode\":\"None\",\"colorsRange\":[{\"from\":0,\"to\":10000}],\"labels\":{\"show\":true},\"invertColors\":false,\"style\":{\"bgFill\":\"#000\",\"bgColor\":false,\"labelColor\":false,\"subText\":\"\",\"fontSize\":60}}},\"aggs\":[{\"id\":\"1\",\"enabled\":true,\"type\":\"avg\",\"schema\":\"metric\",\"params\":{\"field\":\"ghg_emissions\",\"customLabel\":\"GHG Emissions (MTCO2e)\"}}]}",
+      "uiStateJSON": "{}",
+      "description": "",
+      "version": 1,
+      "kibanaSavedObjectMeta": {
+        "searchSourceJSON": "{\"index\":\"7c9483e0-b045-11e8-ad76-fd5c8ab4c1f8\",\"query\":{\"query\":\"\",\"language\":\"lucene\"},\"filter\":[{\"meta\":{\"index\":\"7c9483e0-b045-11e8-ad76-fd5c8ab4c1f8\",\"negate\":false,\"disabled\":false,\"alias\":null,\"type\":\"phrase\",\"key\":\"property_name.keyword\",\"value\":\"Fenway Park\",\"params\":{\"query\":\"Fenway Park\",\"type\":\"phrase\"}},\"query\":{\"match\":{\"property_name.keyword\":{\"query\":\"Fenway Park\",\"type\":\"phrase\"}}},\"$state\":{\"store\":\"appState\"}}]}"
+      }
+    }
+  },
+  {
+    "_id": "31cd4470-b048-11e8-ad76-fd5c8ab4c1f8",
+    "_type": "visualization",
+    "_source": {
+      "title": "[Boston] TD Garden Area",
+      "visState": "{\"title\":\"[Boston] TD Garden Area\",\"type\":\"metric\",\"params\":{\"addTooltip\":true,\"addLegend\":false,\"type\":\"metric\",\"metric\":{\"percentageMode\":false,\"useRanges\":false,\"colorSchema\":\"Green to Red\",\"metricColorMode\":\"None\",\"colorsRange\":[{\"from\":0,\"to\":10000}],\"labels\":{\"show\":true},\"invertColors\":false,\"style\":{\"bgFill\":\"#000\",\"bgColor\":false,\"labelColor\":false,\"subText\":\"\",\"fontSize\":60}}},\"aggs\":[{\"id\":\"1\",\"enabled\":true,\"type\":\"avg\",\"schema\":\"metric\",\"params\":{\"field\":\"gross_area\",\"customLabel\":\"Square Feet\"}}]}",
+      "uiStateJSON": "{}",
+      "description": "",
+      "version": 1,
+      "kibanaSavedObjectMeta": {
+        "searchSourceJSON": "{\"index\":\"7c9483e0-b045-11e8-ad76-fd5c8ab4c1f8\",\"query\":{\"query\":\"\",\"language\":\"lucene\"},\"filter\":[{\"meta\":{\"index\":\"7c9483e0-b045-11e8-ad76-fd5c8ab4c1f8\",\"negate\":false,\"disabled\":false,\"alias\":null,\"type\":\"phrase\",\"key\":\"property_name.keyword\",\"value\":\"TD Garden\",\"params\":{\"query\":\"TD Garden\",\"type\":\"phrase\"}},\"query\":{\"match\":{\"property_name.keyword\":{\"query\":\"TD Garden\",\"type\":\"phrase\"}}},\"$state\":{\"store\":\"appState\"}}]}"
+      }
+    }
+  },
+  {
+    "_id": "c2c60730-b045-11e8-ad76-fd5c8ab4c1f8",
+    "_type": "visualization",
+    "_source": {
+      "title": "[Boston] Fenway Area",
+      "visState": "{\"title\":\"[Boston] Fenway Area\",\"type\":\"metric\",\"params\":{\"addTooltip\":true,\"addLegend\":false,\"type\":\"metric\",\"metric\":{\"percentageMode\":false,\"useRanges\":false,\"colorSchema\":\"Green to Red\",\"metricColorMode\":\"None\",\"colorsRange\":[{\"from\":0,\"to\":10000}],\"labels\":{\"show\":true},\"invertColors\":false,\"style\":{\"bgFill\":\"#000\",\"bgColor\":false,\"labelColor\":false,\"subText\":\"\",\"fontSize\":60}}},\"aggs\":[{\"id\":\"1\",\"enabled\":true,\"type\":\"avg\",\"schema\":\"metric\",\"params\":{\"field\":\"gross_area\",\"customLabel\":\"Square Feet\"}}]}",
+      "uiStateJSON": "{}",
+      "description": "",
+      "version": 1,
+      "kibanaSavedObjectMeta": {
+        "searchSourceJSON": "{\"index\":\"7c9483e0-b045-11e8-ad76-fd5c8ab4c1f8\",\"query\":{\"query\":\"\",\"language\":\"lucene\"},\"filter\":[{\"meta\":{\"index\":\"7c9483e0-b045-11e8-ad76-fd5c8ab4c1f8\",\"negate\":false,\"disabled\":false,\"alias\":null,\"type\":\"phrase\",\"key\":\"property_name.keyword\",\"value\":\"Fenway Park\",\"params\":{\"query\":\"Fenway Park\",\"type\":\"phrase\"}},\"query\":{\"match\":{\"property_name.keyword\":{\"query\":\"Fenway Park\",\"type\":\"phrase\"}}},\"$state\":{\"store\":\"appState\"}}]}"
+      }
+    }
+  },
+  {
+    "_id": "e2763920-b049-11e8-ad76-fd5c8ab4c1f8",
+    "_type": "visualization",
+    "_source": {
+      "title": "[Boston] Boston College Electricity Usage",
+      "visState": "{\"title\":\"[Boston] Boston College Electricity Usage\",\"type\":\"goal\",\"params\":{\"addTooltip\":true,\"addLegend\":false,\"isDisplayWarning\":false,\"type\":\"gauge\",\"gauge\":{\"verticalSplit\":false,\"autoExtend\":false,\"percentageMode\":true,\"gaugeType\":\"Arc\",\"gaugeStyle\":\"Full\",\"backStyle\":\"Full\",\"orientation\":\"vertical\",\"useRanges\":false,\"colorSchema\":\"Green to Red\",\"gaugeColorMode\":\"None\",\"colorsRange\":[{\"from\":0,\"to\":1}],\"invertColors\":false,\"labels\":{\"show\":true,\"color\":\"black\"},\"scale\":{\"show\":false,\"labels\":false,\"color\":\"#333\",\"width\":2},\"type\":\"meter\",\"style\":{\"bgFill\":\"#000\",\"bgColor\":false,\"labelColor\":false,\"subText\":\"\",\"fontSize\":60}}},\"aggs\":[{\"id\":\"1\",\"enabled\":true,\"type\":\"avg\",\"schema\":\"metric\",\"params\":{\"field\":\"percent_electricity\",\"customLabel\":\"Percent Electricity\"}}]}",
+      "uiStateJSON": "{\"vis\":{\"defaultColors\":{\"0 - 100\":\"rgb(0,104,55)\"}}}",
+      "description": "",
+      "version": 1,
+      "kibanaSavedObjectMeta": {
+        "searchSourceJSON": "{\"index\":\"7c9483e0-b045-11e8-ad76-fd5c8ab4c1f8\",\"query\":{\"query\":\"\",\"language\":\"lucene\"},\"filter\":[{\"meta\":{\"index\":\"7c9483e0-b045-11e8-ad76-fd5c8ab4c1f8\",\"negate\":false,\"disabled\":false,\"alias\":null,\"type\":\"phrase\",\"key\":\"property_name.keyword\",\"value\":\"Boston College   (BERDO)\",\"params\":{\"query\":\"Boston College   (BERDO)\",\"type\":\"phrase\"}},\"query\":{\"match\":{\"property_name.keyword\":{\"query\":\"Boston College   (BERDO)\",\"type\":\"phrase\"}}},\"$state\":{\"store\":\"appState\"}}]}"
+      }
+    }
+  },
+  {
+    "_id": "40837110-b048-11e8-ad76-fd5c8ab4c1f8",
+    "_type": "visualization",
+    "_source": {
+      "title": "[Boston] TD Garden Electricity Usage",
+      "visState": "{\"title\":\"[Boston] TD Garden Electricity Usage\",\"type\":\"goal\",\"params\":{\"addTooltip\":true,\"addLegend\":false,\"isDisplayWarning\":false,\"type\":\"gauge\",\"gauge\":{\"verticalSplit\":false,\"autoExtend\":false,\"percentageMode\":true,\"gaugeType\":\"Arc\",\"gaugeStyle\":\"Full\",\"backStyle\":\"Full\",\"orientation\":\"vertical\",\"useRanges\":false,\"colorSchema\":\"Green to Red\",\"gaugeColorMode\":\"None\",\"colorsRange\":[{\"from\":0,\"to\":1}],\"invertColors\":false,\"labels\":{\"show\":true,\"color\":\"black\"},\"scale\":{\"show\":false,\"labels\":false,\"color\":\"#333\",\"width\":2},\"type\":\"meter\",\"style\":{\"bgFill\":\"#000\",\"bgColor\":false,\"labelColor\":false,\"subText\":\"\",\"fontSize\":60}}},\"aggs\":[{\"id\":\"1\",\"enabled\":true,\"type\":\"avg\",\"schema\":\"metric\",\"params\":{\"field\":\"percent_electricity\",\"customLabel\":\"Percent Electricity\"}}]}",
+      "uiStateJSON": "{\"vis\":{\"defaultColors\":{\"0 - 100\":\"rgb(0,104,55)\"}}}",
+      "description": "",
+      "version": 1,
+      "kibanaSavedObjectMeta": {
+        "searchSourceJSON": "{\"index\":\"7c9483e0-b045-11e8-ad76-fd5c8ab4c1f8\",\"query\":{\"query\":\"\",\"language\":\"lucene\"},\"filter\":[{\"meta\":{\"index\":\"7c9483e0-b045-11e8-ad76-fd5c8ab4c1f8\",\"negate\":false,\"disabled\":false,\"alias\":null,\"type\":\"phrase\",\"key\":\"property_name.keyword\",\"value\":\"TD Garden\",\"params\":{\"query\":\"TD Garden\",\"type\":\"phrase\"}},\"query\":{\"match\":{\"property_name.keyword\":{\"query\":\"TD Garden\",\"type\":\"phrase\"}}},\"$state\":{\"store\":\"appState\"}}]}"
+      }
+    }
+  },
+  {
+    "_id": "fc7d2040-b049-11e8-ad76-fd5c8ab4c1f8",
+    "_type": "visualization",
+    "_source": {
+      "title": "[Boston] Boston College Gas Usage",
+      "visState": "{\"title\":\"[Boston] Boston College Gas Usage\",\"type\":\"goal\",\"params\":{\"addTooltip\":true,\"addLegend\":false,\"isDisplayWarning\":false,\"type\":\"gauge\",\"gauge\":{\"verticalSplit\":false,\"autoExtend\":false,\"percentageMode\":true,\"gaugeType\":\"Arc\",\"gaugeStyle\":\"Full\",\"backStyle\":\"Full\",\"orientation\":\"vertical\",\"useRanges\":false,\"colorSchema\":\"Green to Red\",\"gaugeColorMode\":\"None\",\"colorsRange\":[{\"from\":0,\"to\":1}],\"invertColors\":false,\"labels\":{\"show\":true,\"color\":\"black\"},\"scale\":{\"show\":false,\"labels\":false,\"color\":\"#333\",\"width\":2},\"type\":\"meter\",\"style\":{\"bgFill\":\"#000\",\"bgColor\":false,\"labelColor\":false,\"subText\":\"\",\"fontSize\":60}}},\"aggs\":[{\"id\":\"1\",\"enabled\":true,\"type\":\"avg\",\"schema\":\"metric\",\"params\":{\"field\":\"percent_gas\",\"customLabel\":\"Percent Gas\"}}]}",
+      "uiStateJSON": "{\"vis\":{\"defaultColors\":{\"0 - 100\":\"rgb(0,104,55)\"}}}",
+      "description": "",
+      "version": 1,
+      "kibanaSavedObjectMeta": {
+        "searchSourceJSON": "{\"index\":\"7c9483e0-b045-11e8-ad76-fd5c8ab4c1f8\",\"query\":{\"query\":\"\",\"language\":\"lucene\"},\"filter\":[{\"meta\":{\"index\":\"7c9483e0-b045-11e8-ad76-fd5c8ab4c1f8\",\"negate\":false,\"disabled\":false,\"alias\":null,\"type\":\"phrase\",\"key\":\"property_name.keyword\",\"value\":\"Boston College   (BERDO)\",\"params\":{\"query\":\"Boston College   (BERDO)\",\"type\":\"phrase\"}},\"query\":{\"match\":{\"property_name.keyword\":{\"query\":\"Boston College   (BERDO)\",\"type\":\"phrase\"}}},\"$state\":{\"store\":\"appState\"}}]}"
+      }
+    }
+  },
+  {
+    "_id": "7f6d8d20-b048-11e8-ad76-fd5c8ab4c1f8",
+    "_type": "visualization",
+    "_source": {
+      "title": "[Boston] TD Garden Steam Usage",
+      "visState": "{\"title\":\"[Boston] TD Garden Steam Usage\",\"type\":\"goal\",\"params\":{\"addTooltip\":true,\"addLegend\":false,\"isDisplayWarning\":false,\"type\":\"gauge\",\"gauge\":{\"verticalSplit\":false,\"autoExtend\":false,\"percentageMode\":true,\"gaugeType\":\"Arc\",\"gaugeStyle\":\"Full\",\"backStyle\":\"Full\",\"orientation\":\"vertical\",\"useRanges\":false,\"colorSchema\":\"Green to Red\",\"gaugeColorMode\":\"None\",\"colorsRange\":[{\"from\":0,\"to\":1}],\"invertColors\":false,\"labels\":{\"show\":true,\"color\":\"black\"},\"scale\":{\"show\":false,\"labels\":false,\"color\":\"#333\",\"width\":2},\"type\":\"meter\",\"style\":{\"bgFill\":\"#000\",\"bgColor\":false,\"labelColor\":false,\"subText\":\"\",\"fontSize\":60}}},\"aggs\":[{\"id\":\"1\",\"enabled\":true,\"type\":\"avg\",\"schema\":\"metric\",\"params\":{\"field\":\"percent_steam\",\"customLabel\":\"Percent Steam\"}}]}",
+      "uiStateJSON": "{\"vis\":{\"defaultColors\":{\"0 - 100\":\"rgb(0,104,55)\"}}}",
+      "description": "",
+      "version": 1,
+      "kibanaSavedObjectMeta": {
+        "searchSourceJSON": "{\"index\":\"7c9483e0-b045-11e8-ad76-fd5c8ab4c1f8\",\"query\":{\"query\":\"\",\"language\":\"lucene\"},\"filter\":[{\"meta\":{\"index\":\"7c9483e0-b045-11e8-ad76-fd5c8ab4c1f8\",\"negate\":false,\"disabled\":false,\"alias\":null,\"type\":\"phrase\",\"key\":\"property_name.keyword\",\"value\":\"TD Garden\",\"params\":{\"query\":\"TD Garden\",\"type\":\"phrase\"}},\"query\":{\"match\":{\"property_name.keyword\":{\"query\":\"TD Garden\",\"type\":\"phrase\"}}},\"$state\":{\"store\":\"appState\"}}]}"
+      }
+    }
+  },
+  {
+    "_id": "a92b1660-b047-11e8-ad76-fd5c8ab4c1f8",
+    "_type": "visualization",
+    "_source": {
+      "title": "[Boston] TD Garden Gas Usage",
+      "visState": "{\"title\":\"[Boston] TD Garden Gas Usage\",\"type\":\"goal\",\"params\":{\"addTooltip\":true,\"addLegend\":false,\"isDisplayWarning\":false,\"type\":\"gauge\",\"gauge\":{\"verticalSplit\":false,\"autoExtend\":false,\"percentageMode\":true,\"gaugeType\":\"Arc\",\"gaugeStyle\":\"Full\",\"backStyle\":\"Full\",\"orientation\":\"vertical\",\"useRanges\":false,\"colorSchema\":\"Green to Red\",\"gaugeColorMode\":\"None\",\"colorsRange\":[{\"from\":0,\"to\":1}],\"invertColors\":false,\"labels\":{\"show\":true,\"color\":\"black\"},\"scale\":{\"show\":false,\"labels\":false,\"color\":\"#333\",\"width\":2},\"type\":\"meter\",\"style\":{\"bgFill\":\"#000\",\"bgColor\":false,\"labelColor\":false,\"subText\":\"\",\"fontSize\":60}}},\"aggs\":[{\"id\":\"1\",\"enabled\":true,\"type\":\"avg\",\"schema\":\"metric\",\"params\":{\"field\":\"percent_gas\",\"customLabel\":\"Percent Gas\"}}]}",
+      "uiStateJSON": "{\"vis\":{\"defaultColors\":{\"0 - 100\":\"rgb(0,104,55)\"}}}",
+      "description": "",
+      "version": 1,
+      "kibanaSavedObjectMeta": {
+        "searchSourceJSON": "{\"index\":\"7c9483e0-b045-11e8-ad76-fd5c8ab4c1f8\",\"query\":{\"query\":\"\",\"language\":\"lucene\"},\"filter\":[{\"meta\":{\"index\":\"7c9483e0-b045-11e8-ad76-fd5c8ab4c1f8\",\"negate\":false,\"disabled\":false,\"alias\":null,\"type\":\"phrase\",\"key\":\"property_name.keyword\",\"value\":\"TD Garden\",\"params\":{\"query\":\"TD Garden\",\"type\":\"phrase\"}},\"query\":{\"match\":{\"property_name.keyword\":{\"query\":\"TD Garden\",\"type\":\"phrase\"}}},\"$state\":{\"store\":\"appState\"}}]}"
+      }
+    }
+  },
+  {
+    "_id": "5f59e1a0-b048-11e8-ad76-fd5c8ab4c1f8",
+    "_type": "visualization",
+    "_source": {
+      "title": "[Boston] Fenway Gas Usage",
+      "visState": "{\"title\":\"[Boston] Fenway Gas Usage\",\"type\":\"goal\",\"params\":{\"addTooltip\":true,\"addLegend\":false,\"isDisplayWarning\":false,\"type\":\"gauge\",\"gauge\":{\"verticalSplit\":false,\"autoExtend\":false,\"percentageMode\":true,\"gaugeType\":\"Arc\",\"gaugeStyle\":\"Full\",\"backStyle\":\"Full\",\"orientation\":\"vertical\",\"useRanges\":false,\"colorSchema\":\"Green to Red\",\"gaugeColorMode\":\"None\",\"colorsRange\":[{\"from\":0,\"to\":1}],\"invertColors\":false,\"labels\":{\"show\":true,\"color\":\"black\"},\"scale\":{\"show\":false,\"labels\":false,\"color\":\"#333\",\"width\":2},\"type\":\"meter\",\"style\":{\"bgFill\":\"#000\",\"bgColor\":false,\"labelColor\":false,\"subText\":\"\",\"fontSize\":60}}},\"aggs\":[{\"id\":\"1\",\"enabled\":true,\"type\":\"avg\",\"schema\":\"metric\",\"params\":{\"field\":\"percent_gas\",\"customLabel\":\"Percent Gas\"}}]}",
+      "uiStateJSON": "{\"vis\":{\"defaultColors\":{\"0 - 100\":\"rgb(0,104,55)\"}}}",
+      "description": "",
+      "version": 1,
+      "kibanaSavedObjectMeta": {
+        "searchSourceJSON": "{\"index\":\"7c9483e0-b045-11e8-ad76-fd5c8ab4c1f8\",\"query\":{\"query\":\"\",\"language\":\"lucene\"},\"filter\":[{\"meta\":{\"index\":\"7c9483e0-b045-11e8-ad76-fd5c8ab4c1f8\",\"negate\":false,\"disabled\":false,\"alias\":null,\"type\":\"phrase\",\"key\":\"property_name.keyword\",\"value\":\"Fenway Park\",\"params\":{\"query\":\"Fenway Park\",\"type\":\"phrase\"}},\"query\":{\"match\":{\"property_name.keyword\":{\"query\":\"Fenway Park\",\"type\":\"phrase\"}}},\"$state\":{\"store\":\"appState\"}}]}"
+      }
+    }
+  },
+  {
+    "_id": "70440540-b048-11e8-ad76-fd5c8ab4c1f8",
+    "_type": "visualization",
+    "_source": {
+      "title": "[Boston] TD Garden GHG Emissions",
+      "visState": "{\"title\":\"[Boston] TD Garden GHG Emissions\",\"type\":\"metric\",\"params\":{\"addTooltip\":true,\"addLegend\":false,\"type\":\"metric\",\"metric\":{\"percentageMode\":false,\"useRanges\":false,\"colorSchema\":\"Green to Red\",\"metricColorMode\":\"None\",\"colorsRange\":[{\"from\":0,\"to\":10000}],\"labels\":{\"show\":true},\"invertColors\":false,\"style\":{\"bgFill\":\"#000\",\"bgColor\":false,\"labelColor\":false,\"subText\":\"\",\"fontSize\":60}}},\"aggs\":[{\"id\":\"1\",\"enabled\":true,\"type\":\"avg\",\"schema\":\"metric\",\"params\":{\"field\":\"ghg_emissions\",\"customLabel\":\"GHG Emissions (MTCO2e)\"}}]}",
+      "uiStateJSON": "{}",
+      "description": "",
+      "version": 1,
+      "kibanaSavedObjectMeta": {
+        "searchSourceJSON": "{\"index\":\"7c9483e0-b045-11e8-ad76-fd5c8ab4c1f8\",\"query\":{\"query\":\"\",\"language\":\"lucene\"},\"filter\":[{\"meta\":{\"index\":\"7c9483e0-b045-11e8-ad76-fd5c8ab4c1f8\",\"negate\":false,\"disabled\":false,\"alias\":null,\"type\":\"phrase\",\"key\":\"property_name.keyword\",\"value\":\"TD Garden\",\"params\":{\"query\":\"TD Garden\",\"type\":\"phrase\"}},\"query\":{\"match\":{\"property_name.keyword\":{\"query\":\"TD Garden\",\"type\":\"phrase\"}}},\"$state\":{\"store\":\"appState\"}}]}"
+      }
+    }
+  },
+  {
+    "_id": "d12a4670-b049-11e8-ad76-fd5c8ab4c1f8",
+    "_type": "visualization",
+    "_source": {
+      "title": "[Boston] Boston College Area",
+      "visState": "{\"title\":\"[Boston] Boston College Area\",\"type\":\"metric\",\"params\":{\"addTooltip\":true,\"addLegend\":false,\"type\":\"metric\",\"metric\":{\"percentageMode\":false,\"useRanges\":false,\"colorSchema\":\"Green to Red\",\"metricColorMode\":\"None\",\"colorsRange\":[{\"from\":0,\"to\":10000}],\"labels\":{\"show\":true},\"invertColors\":false,\"style\":{\"bgFill\":\"#000\",\"bgColor\":false,\"labelColor\":false,\"subText\":\"\",\"fontSize\":60}}},\"aggs\":[{\"id\":\"1\",\"enabled\":true,\"type\":\"avg\",\"schema\":\"metric\",\"params\":{\"field\":\"gross_area\",\"customLabel\":\"Square Feet\"}}]}",
+      "uiStateJSON": "{}",
+      "description": "",
+      "version": 1,
+      "kibanaSavedObjectMeta": {
+        "searchSourceJSON": "{\"index\":\"7c9483e0-b045-11e8-ad76-fd5c8ab4c1f8\",\"query\":{\"query\":\"\",\"language\":\"lucene\"},\"filter\":[{\"meta\":{\"index\":\"7c9483e0-b045-11e8-ad76-fd5c8ab4c1f8\",\"negate\":false,\"disabled\":false,\"alias\":null,\"type\":\"phrase\",\"key\":\"property_name.keyword\",\"value\":\"Boston College   (BERDO)\",\"params\":{\"query\":\"Boston College   (BERDO)\",\"type\":\"phrase\"}},\"query\":{\"match\":{\"property_name.keyword\":{\"query\":\"Boston College   (BERDO)\",\"type\":\"phrase\"}}},\"$state\":{\"store\":\"appState\"}}]}"
+      }
+    }
+  },
+  {
+    "_id": "172f3b80-b04a-11e8-ad76-fd5c8ab4c1f8",
+    "_type": "visualization",
+    "_source": {
+      "title": "[Boston] Boston College Steam Usage",
+      "visState": "{\"title\":\"[Boston] Boston College Steam Usage\",\"type\":\"goal\",\"params\":{\"addTooltip\":true,\"addLegend\":false,\"isDisplayWarning\":false,\"type\":\"gauge\",\"gauge\":{\"verticalSplit\":false,\"autoExtend\":false,\"percentageMode\":true,\"gaugeType\":\"Arc\",\"gaugeStyle\":\"Full\",\"backStyle\":\"Full\",\"orientation\":\"vertical\",\"useRanges\":false,\"colorSchema\":\"Green to Red\",\"gaugeColorMode\":\"None\",\"colorsRange\":[{\"from\":0,\"to\":1}],\"invertColors\":false,\"labels\":{\"show\":true,\"color\":\"black\"},\"scale\":{\"show\":false,\"labels\":false,\"color\":\"#333\",\"width\":2},\"type\":\"meter\",\"style\":{\"bgFill\":\"#000\",\"bgColor\":false,\"labelColor\":false,\"subText\":\"\",\"fontSize\":60}}},\"aggs\":[{\"id\":\"1\",\"enabled\":true,\"type\":\"avg\",\"schema\":\"metric\",\"params\":{\"field\":\"percent_steam\",\"customLabel\":\"Percent Steam\"}}]}",
+      "uiStateJSON": "{\"vis\":{\"defaultColors\":{\"0 - 100\":\"rgb(0,104,55)\"}}}",
+      "description": "",
+      "version": 1,
+      "kibanaSavedObjectMeta": {
+        "searchSourceJSON": "{\"index\":\"7c9483e0-b045-11e8-ad76-fd5c8ab4c1f8\",\"query\":{\"query\":\"\",\"language\":\"lucene\"},\"filter\":[{\"meta\":{\"index\":\"7c9483e0-b045-11e8-ad76-fd5c8ab4c1f8\",\"negate\":false,\"disabled\":false,\"alias\":null,\"type\":\"phrase\",\"key\":\"property_name.keyword\",\"value\":\"Boston College   (BERDO)\",\"params\":{\"query\":\"Boston College   (BERDO)\",\"type\":\"phrase\"}},\"query\":{\"match\":{\"property_name.keyword\":{\"query\":\"Boston College   (BERDO)\",\"type\":\"phrase\"}}},\"$state\":{\"store\":\"appState\"}}]}"
+      }
+    }
+  },
+  {
+    "_id": "06be6690-b04a-11e8-ad76-fd5c8ab4c1f8",
+    "_type": "visualization",
+    "_source": {
+      "title": "[Boston] Boston College GHG Emissions",
+      "visState": "{\"title\":\"[Boston] Boston College GHG Emissions\",\"type\":\"metric\",\"params\":{\"addTooltip\":true,\"addLegend\":false,\"type\":\"metric\",\"metric\":{\"percentageMode\":false,\"useRanges\":false,\"colorSchema\":\"Green to Red\",\"metricColorMode\":\"None\",\"colorsRange\":[{\"from\":0,\"to\":10000}],\"labels\":{\"show\":true},\"invertColors\":false,\"style\":{\"bgFill\":\"#000\",\"bgColor\":false,\"labelColor\":false,\"subText\":\"\",\"fontSize\":60}}},\"aggs\":[{\"id\":\"1\",\"enabled\":true,\"type\":\"avg\",\"schema\":\"metric\",\"params\":{\"field\":\"ghg_emissions\",\"customLabel\":\"GHG Emissions (MTCO2e)\"}}]}",
+      "uiStateJSON": "{}",
+      "description": "",
+      "version": 1,
+      "kibanaSavedObjectMeta": {
+        "searchSourceJSON": "{\"index\":\"7c9483e0-b045-11e8-ad76-fd5c8ab4c1f8\",\"query\":{\"query\":\"\",\"language\":\"lucene\"},\"filter\":[{\"meta\":{\"index\":\"7c9483e0-b045-11e8-ad76-fd5c8ab4c1f8\",\"negate\":false,\"disabled\":false,\"alias\":null,\"type\":\"phrase\",\"key\":\"property_name.keyword\",\"value\":\"Boston College   (BERDO)\",\"params\":{\"query\":\"Boston College   (BERDO)\",\"type\":\"phrase\"}},\"query\":{\"match\":{\"property_name.keyword\":{\"query\":\"Boston College   (BERDO)\",\"type\":\"phrase\"}}},\"$state\":{\"store\":\"appState\"}}]}"
+      }
+    }
+  }
+]

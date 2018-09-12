@@ -1,8 +1,10 @@
+**Please note that there are image assets in this workpad that are not cannot be used for redistribution. This Canvas workpad is solely meant to be an example to learn from**
+
+### Data set and branding
+
 [Boston Data set - 2017 Reported Energy and Water Metrics](https://data.boston.gov/dataset/building-energy-reporting-and-disclosure-ordinance/resource/5b027436-5213-4be6-ab5f-485a03f74500?inner_span=True)
 
 [Boston.gov Branding](https://www.boston.gov/news/colors-typefaces-and-look-bostongov)
-
-Use this [demo script](https://docs.google.com/document/d/1k3kjuscjdLkW_ECTMT9qE9Ck8Rdcl6IELiZO78aboWs/edit#bookmark=id.g37wsibtoia2) to build as part of a demo.
 
 ### Ingest data
 Add the csv, template and configuration to your logstash directory and run the following command

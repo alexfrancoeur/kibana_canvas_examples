@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="32px" height="32px" viewBox="0 0 32 32" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 51.2 (57519) - http://www.bohemiancoding.com/sketch -->
+    <title>elastic_stack</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="elastic_stack" fill="#C9C8C9" fill-rule="nonzero">
+            <path d="M0.395,3.64 C0.394469193,2.80749611 0.724876555,2.00892232 1.31345203,1.42015928 C1.90202751,0.831396238 2.70049598,0.500734449 3.533,0.501 L28.473,0.501 C29.3051574,0.500734728 30.1033225,0.831122026 30.6918404,1.4194524 C31.2803584,2.00778277 31.611,2.80584258 31.611,3.638 L31.611,9.875 L0.394999361,9.875 L0.395,3.64 Z" id="Shape"></path>
+            <path d="M0.395,22.356 L15.215,22.356 L15.215,31.7180007 L3.515,31.718 C1.81324009,31.7191099 0.420940531,30.3631929 0.377,28.662 L0.397,22.356 L0.395,22.356 Z" id="Shape"></path>
+            <path d="M16.778,22.356 L31.598,22.356 L31.598,28.593 C31.598,30.3255173 30.1935173,31.73 28.461,31.73 L16.778,31.73 L16.778,22.356 Z" id="Shape"></path>
+            <polygon id="Shape" points="0.395 11.438 31.592 11.438 31.592 20.8 0.395 20.8"></polygon>
+        </g>
+    </g>
+</svg>

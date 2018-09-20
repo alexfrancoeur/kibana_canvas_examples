@@ -5,6 +5,9 @@ This repo is meant to provide some examples for Kibana Canvas workpads. Simply d
 #### [Demo Data: Conditional Assets](https://github.com/alexfrancoeur/kibana_canvas_examples/tree/master/demo_data/conditional_assets)
 ![screenshot](https://github.com/alexfrancoeur/kibana_canvas_examples/blob/master/images/conditional_assets_01.png)
 
+#### [Demo Data: Dynamic Markdown and Infographics](https://github.com/alexfrancoeur/kibana_canvas_examples/tree/master/demo_data/dynamic_markdown)
+![screenshot](https://github.com/alexfrancoeur/kibana_canvas_examples/blob/master/images/dynamic_markdown.png)
+
 #### [Sample Data: Flight Console](https://github.com/alexfrancoeur/kibana_canvas_examples/tree/master/sample_data/flight_data)
 ![screenshot](https://github.com/alexfrancoeur/kibana_canvas_examples/blob/master/images/flight_data.png)
 

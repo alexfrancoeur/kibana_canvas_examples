@@ -16,3 +16,9 @@ This repo is meant to provide some examples for Kibana Canvas workpads. Simply d
 
 #### [Public Data: Boston Energy and Water Metrics](https://github.com/alexfrancoeur/kibana_canvas_examples/tree/master/public_data_sets/boston_energy_water_metrics_2017)
 ![screenshot](https://github.com/alexfrancoeur/kibana_canvas_examples/blob/master/images/boston_workpad.png)
+
+#### [Random Examples Metrics](https://github.com/alexfrancoeur/kibana_canvas_examples/tree/master/random_numbers)
+![screenshot](https://github.com/alexfrancoeur/kibana_canvas_examples/blob/master/images/random01.png)
+
+#### [EAH Workshop](https://github.com/alexfrancoeur/kibana_canvas_examples/tree/master/workshop)
+![screenshot](https://github.com/alexfrancoeur/kibana_canvas_examples/blob/master/images/workshop.png)

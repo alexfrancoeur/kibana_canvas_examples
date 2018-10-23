@@ -25,3 +25,6 @@ This repo is meant to provide some examples for Kibana Canvas workpads. Simply d
 
 #### [EAH Workshop](https://github.com/alexfrancoeur/kibana_canvas_examples/tree/master/workshop)
 ![screenshot](https://github.com/alexfrancoeur/kibana_canvas_examples/blob/master/images/workshop.png)
+
+#### [Elasticon 2018](https://github.com/alexfrancoeur/kibana_canvas_examples/tree/master/elasticon2018)
+![screenshot](https://github.com/alexfrancoeur/kibana_canvas_examples/blob/master/images/canvas_intro_workpad.png)

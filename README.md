@@ -2,6 +2,9 @@
 
 This repo is meant to provide some examples for Kibana Canvas workpads. Simply download the workpad and drag it into Canvas. If there's a data set associated with it, follow the instructions to ingest the data.
 
+#### [What is Canvas?](https://github.com/alexfrancoeur/kibana_canvas_examples/tree/master/presentations/what_is_canvas)
+![screenshot](https://github.com/alexfrancoeur/kibana_canvas_examples/blob/master/images/what_is_canvas.gif)
+
 #### [Demo Data: Conditional Assets](https://github.com/alexfrancoeur/kibana_canvas_examples/tree/master/demo_data/conditional_assets)
 ![screenshot](https://github.com/alexfrancoeur/kibana_canvas_examples/blob/master/images/conditional_assets_01.png)
 
@@ -23,8 +26,5 @@ This repo is meant to provide some examples for Kibana Canvas workpads. Simply d
 #### [Random Examples](https://github.com/alexfrancoeur/kibana_canvas_examples/tree/master/random_numbers)
 ![screenshot](https://github.com/alexfrancoeur/kibana_canvas_examples/blob/master/images/random01.png)
 
-#### [EAH Workshop](https://github.com/alexfrancoeur/kibana_canvas_examples/tree/master/workshop)
+#### [EAH Workshop](https://github.com/alexfrancoeur/kibana_canvas_examples/tree/master/presentations/workshop)
 ![screenshot](https://github.com/alexfrancoeur/kibana_canvas_examples/blob/master/images/workshop.png)
-
-#### [Elasticon 2018](https://github.com/alexfrancoeur/kibana_canvas_examples/tree/master/elasticon2018)
-![screenshot](https://github.com/alexfrancoeur/kibana_canvas_examples/blob/master/images/canvas_intro_workpad.png)

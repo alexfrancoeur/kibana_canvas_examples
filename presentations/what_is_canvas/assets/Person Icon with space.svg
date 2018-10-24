@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="23px" height="22px" viewBox="0 0 23 22" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 51.2 (57519) - http://www.bohemiancoding.com/sketch -->
+    <title>Artboard</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Artboard" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Slide-9---Person-Icon" transform="translate(2.000000, 2.000000)" fill="#7DE2D1" fill-rule="nonzero">
+            <circle id="Oval" cx="9.58" cy="4.82" r="4.82"></circle>
+            <path d="M9.58,9.08 C7.26988166,9.11422201 5.06800473,10.0648657 3.45888766,11.7227439 C1.84977058,13.3806221 0.965263371,15.6098893 1,17.92 L18.16,17.92 C18.1947366,15.6098893 17.3102294,13.3806221 15.7011123,11.7227439 C14.0919953,10.0648657 11.8901183,9.11422201 9.58,9.08 Z" id="Shape"></path>
+        </g>
+    </g>
+</svg>

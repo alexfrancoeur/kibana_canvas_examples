@@ -8,4 +8,4 @@ cat Building_Energy_Benchmarks.csv | bin/logstash -f dc_energy.conf
 Drag and drop the Canvas workpad in the Canvas app
 
 Canvas Workpad
-![screenshot](https://github.com/alexfrancoeur/elasticon_tour_2018_alexf/blob/master/images/dc.png)
+![screenshot](https://github.com/alexfrancoeur/kibana_canvas_examples/blob/master/images/dc.png)

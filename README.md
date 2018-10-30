@@ -27,10 +27,10 @@ This repo is meant to provide some examples for Kibana Canvas workpads. Simply d
 ![screenshot](https://github.com/alexfrancoeur/kibana_canvas_examples/blob/master/images/boston_workpad.png)
 
 #### [Public Data: DC Energy Benchmarks](https://github.com/alexfrancoeur/kibana_canvas_examples/tree/master/public_data_sets/washington_dc_energy)
-![screenshot](https://github.com/alexfrancoeur/elasticon_tour_2018_alexf/blob/master/images/dc.png)
+![screenshot](https://github.com/alexfrancoeur/kibana_canvas_examples/blob/master/images/dc.png)
 
 #### [Public Data: Iowa Liquor Sales](https://github.com/alexfrancoeur/kibana_canvas_examples/tree/master/public_data_sets/iowa_liquor_sales)
-![screenshot](https://github.com/alexfrancoeur/elasticon_tour_2018_alexf/blob/master/images/iowa.png)
+![screenshot](https://github.com/alexfrancoeur/kibana_canvas_examples/blob/master/images/iowa.png)
 
 #### [Random Examples](https://github.com/alexfrancoeur/kibana_canvas_examples/tree/master/random_numbers)
 ![screenshot](https://github.com/alexfrancoeur/kibana_canvas_examples/blob/master/images/random01.png)

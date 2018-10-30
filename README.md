@@ -2,8 +2,11 @@
 
 This repo is meant to provide some examples for Kibana Canvas workpads. Simply download the workpad and drag it into Canvas. If there's a data set associated with it, follow the instructions to ingest the data.
 
-#### [What is Canvas?](https://github.com/alexfrancoeur/kibana_canvas_examples/tree/master/presentations/what_is_canvas)
+#### [Presentations: What is Canvas?](https://github.com/alexfrancoeur/kibana_canvas_examples/tree/master/presentations/what_is_canvas)
 ![screenshot](https://github.com/alexfrancoeur/kibana_canvas_examples/blob/master/images/what_is_canvas.gif)
+
+#### [Presentations: EAH Workshop](https://github.com/alexfrancoeur/kibana_canvas_examples/tree/master/presentations/workshop)
+![screenshot](https://github.com/alexfrancoeur/kibana_canvas_examples/blob/master/images/workshop.png)
 
 #### [Demo Data: Conditional Assets](https://github.com/alexfrancoeur/kibana_canvas_examples/tree/master/demo_data/conditional_assets)
 ![screenshot](https://github.com/alexfrancoeur/kibana_canvas_examples/blob/master/images/conditional_assets_01.png)
@@ -23,8 +26,11 @@ This repo is meant to provide some examples for Kibana Canvas workpads. Simply d
 #### [Public Data: Boston Energy and Water Metrics](https://github.com/alexfrancoeur/kibana_canvas_examples/tree/master/public_data_sets/boston_energy_water_metrics_2017)
 ![screenshot](https://github.com/alexfrancoeur/kibana_canvas_examples/blob/master/images/boston_workpad.png)
 
+#### [Public Data: DC Energy Benchmarks](https://github.com/alexfrancoeur/kibana_canvas_examples/tree/master/public_data_sets/washington_dc_energy)
+![screenshot](https://github.com/alexfrancoeur/elasticon_tour_2018_alexf/blob/master/images/dc.png)
+
+#### [Public Data: Iowa Liquor Sales](https://github.com/alexfrancoeur/kibana_canvas_examples/tree/master/public_data_sets/iowa_liquor_sales)
+![screenshot](https://github.com/alexfrancoeur/elasticon_tour_2018_alexf/blob/master/images/iowa.png)
+
 #### [Random Examples](https://github.com/alexfrancoeur/kibana_canvas_examples/tree/master/random_numbers)
 ![screenshot](https://github.com/alexfrancoeur/kibana_canvas_examples/blob/master/images/random01.png)
-
-#### [EAH Workshop](https://github.com/alexfrancoeur/kibana_canvas_examples/tree/master/presentations/workshop)
-![screenshot](https://github.com/alexfrancoeur/kibana_canvas_examples/blob/master/images/workshop.png)

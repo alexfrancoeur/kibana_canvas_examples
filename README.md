@@ -17,6 +17,9 @@ This repo is meant to provide some examples for Kibana Canvas workpads. Simply d
 #### [Sample Data: Flight Console](https://github.com/alexfrancoeur/kibana_canvas_examples/tree/master/sample_data/flight_data)
 ![screenshot](https://github.com/alexfrancoeur/kibana_canvas_examples/blob/master/images/flight_data.png)
 
+#### [Sample Data: Flight Analysis](https://github.com/alexfrancoeur/kibana_canvas_examples/tree/master/sample_data/flight_analysis)
+![screenshot](https://github.com/alexfrancoeur/kibana_canvas_examples/blob/master/images/flight_analysis.png)
+
 #### [Sample Data: Operational Monitoring](https://github.com/alexfrancoeur/kibana_canvas_examples/tree/master/sample_data/web_logs)
 ![screenshot](https://github.com/alexfrancoeur/kibana_canvas_examples/blob/master/images/web_logs.png)
 

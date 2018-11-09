@@ -1,0 +1,14 @@
+{
+  "name": "canvas_stats",
+  "version": "1.0.0",
+  "private": true,
+  "main": "canvas_intro_stats.js",
+  "license": "MIT",
+  "scripts": {
+    "start": "node ."
+  },
+  "dependencies": {
+    "elasticsearch": "^15.2.0",
+    "interval-promise": "^1.3.0"
+  }
+}

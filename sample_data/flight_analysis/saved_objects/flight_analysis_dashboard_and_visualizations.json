@@ -1,0 +1,122 @@
+[
+  {
+    "_id": "93553060-e80e-11e8-a5bf-c91c93e50f9d",
+    "_type": "visualization",
+    "_source": {
+      "title": "[Flight Analysis] Total Cancellations",
+      "visState": "{\"title\":\"[Flight Analysis] Total Cancellations\",\"type\":\"metric\",\"params\":{\"addTooltip\":true,\"addLegend\":false,\"type\":\"metric\",\"metric\":{\"percentageMode\":false,\"useRanges\":false,\"colorSchema\":\"Green to Red\",\"metricColorMode\":\"None\",\"colorsRange\":[{\"from\":0,\"to\":10000}],\"labels\":{\"show\":true},\"invertColors\":false,\"style\":{\"bgFill\":\"#000\",\"bgColor\":false,\"labelColor\":false,\"subText\":\"\",\"fontSize\":60}}},\"aggs\":[{\"id\":\"1\",\"enabled\":true,\"type\":\"count\",\"schema\":\"metric\",\"params\":{\"customLabel\":\"Total Cancellations\"}}]}",
+      "uiStateJSON": "{}",
+      "description": "",
+      "version": 1,
+      "kibanaSavedObjectMeta": {
+        "searchSourceJSON": "{\"index\":\"d3d7af60-4c81-11e8-b3d7-01146121b73d\",\"query\":{\"query\":\"\",\"language\":\"lucene\"},\"filter\":[{\"meta\":{\"index\":\"d3d7af60-4c81-11e8-b3d7-01146121b73d\",\"negate\":false,\"disabled\":false,\"alias\":null,\"type\":\"phrase\",\"key\":\"Cancelled\",\"value\":\"true\",\"params\":{\"query\":true,\"type\":\"phrase\"}},\"query\":{\"match\":{\"Cancelled\":{\"query\":true,\"type\":\"phrase\"}}},\"$state\":{\"store\":\"appState\"}}]}"
+      }
+    }
+  },
+  {
+    "_id": "68580d20-e80d-11e8-a5bf-c91c93e50f9d",
+    "_type": "visualization",
+    "_source": {
+      "title": "[Flight Analysis] Carrier",
+      "visState": "{\"title\":\"[Flight Analysis] Carrier\",\"type\":\"input_control_vis\",\"params\":{\"controls\":[{\"id\":\"1542200462193\",\"indexPattern\":\"d3d7af60-4c81-11e8-b3d7-01146121b73d\",\"fieldName\":\"Carrier\",\"parent\":\"\",\"label\":\"Carrier\",\"type\":\"list\",\"options\":{\"type\":\"terms\",\"multiselect\":true,\"dynamicOptions\":true,\"size\":5,\"order\":\"desc\"}}],\"updateFiltersOnChange\":false,\"useTimeFilter\":false,\"pinFilters\":false},\"aggs\":[]}",
+      "uiStateJSON": "{}",
+      "description": "",
+      "version": 1,
+      "kibanaSavedObjectMeta": {
+        "searchSourceJSON": "{\"query\":{\"query\":\"\",\"language\":\"lucene\"},\"filter\":[]}"
+      }
+    }
+  },
+  {
+    "_id": "ed0ad890-e80d-11e8-a5bf-c91c93e50f9d",
+    "_type": "visualization",
+    "_source": {
+      "title": "[Flight Analysis] Total Flights",
+      "visState": "{\"title\":\"[Flight Analysis] Total Flights\",\"type\":\"metric\",\"params\":{\"addTooltip\":true,\"addLegend\":false,\"type\":\"metric\",\"metric\":{\"percentageMode\":false,\"useRanges\":false,\"colorSchema\":\"Green to Red\",\"metricColorMode\":\"None\",\"colorsRange\":[{\"from\":0,\"to\":10000}],\"labels\":{\"show\":true},\"invertColors\":false,\"style\":{\"bgFill\":\"#000\",\"bgColor\":false,\"labelColor\":false,\"subText\":\"\",\"fontSize\":60}}},\"aggs\":[{\"id\":\"1\",\"enabled\":true,\"type\":\"count\",\"schema\":\"metric\",\"params\":{\"customLabel\":\"Total Flights\"}}]}",
+      "uiStateJSON": "{}",
+      "description": "",
+      "version": 1,
+      "kibanaSavedObjectMeta": {
+        "searchSourceJSON": "{\"index\":\"d3d7af60-4c81-11e8-b3d7-01146121b73d\",\"query\":{\"query\":\"\",\"language\":\"lucene\"},\"filter\":[]}"
+      }
+    }
+  },
+  {
+    "_id": "2e32afa0-e80e-11e8-a5bf-c91c93e50f9d",
+    "_type": "visualization",
+    "_source": {
+      "title": "[Flight Analysis] Average Ticket Price",
+      "visState": "{\"title\":\"[Flight Analysis] Average Ticket Price\",\"type\":\"metric\",\"params\":{\"addTooltip\":true,\"addLegend\":false,\"type\":\"metric\",\"metric\":{\"percentageMode\":false,\"useRanges\":false,\"colorSchema\":\"Green to Red\",\"metricColorMode\":\"None\",\"colorsRange\":[{\"from\":0,\"to\":10000}],\"labels\":{\"show\":true},\"invertColors\":false,\"style\":{\"bgFill\":\"#000\",\"bgColor\":false,\"labelColor\":false,\"subText\":\"\",\"fontSize\":60}}},\"aggs\":[{\"id\":\"1\",\"enabled\":true,\"type\":\"avg\",\"schema\":\"metric\",\"params\":{\"field\":\"AvgTicketPrice\",\"customLabel\":\"Average Ticket Price\"}}]}",
+      "uiStateJSON": "{}",
+      "description": "",
+      "version": 1,
+      "kibanaSavedObjectMeta": {
+        "searchSourceJSON": "{\"index\":\"d3d7af60-4c81-11e8-b3d7-01146121b73d\",\"query\":{\"query\":\"\",\"language\":\"lucene\"},\"filter\":[]}"
+      }
+    }
+  },
+  {
+    "_id": "656df010-e80e-11e8-a5bf-c91c93e50f9d",
+    "_type": "visualization",
+    "_source": {
+      "title": "[Flight Analysis] Total Delays",
+      "visState": "{\"title\":\"[Flight Analysis] Total Delays\",\"type\":\"metric\",\"params\":{\"addTooltip\":true,\"addLegend\":false,\"type\":\"metric\",\"metric\":{\"percentageMode\":false,\"useRanges\":false,\"colorSchema\":\"Green to Red\",\"metricColorMode\":\"None\",\"colorsRange\":[{\"from\":0,\"to\":10000}],\"labels\":{\"show\":true},\"invertColors\":false,\"style\":{\"bgFill\":\"#000\",\"bgColor\":false,\"labelColor\":false,\"subText\":\"\",\"fontSize\":60}}},\"aggs\":[{\"id\":\"1\",\"enabled\":true,\"type\":\"count\",\"schema\":\"metric\",\"params\":{\"customLabel\":\"Total Delays\"}}]}",
+      "uiStateJSON": "{}",
+      "description": "",
+      "version": 1,
+      "kibanaSavedObjectMeta": {
+        "searchSourceJSON": "{\"index\":\"d3d7af60-4c81-11e8-b3d7-01146121b73d\",\"query\":{\"query\":\"\",\"language\":\"lucene\"},\"filter\":[{\"meta\":{\"index\":\"d3d7af60-4c81-11e8-b3d7-01146121b73d\",\"negate\":false,\"disabled\":false,\"alias\":null,\"type\":\"phrase\",\"key\":\"FlightDelay\",\"value\":\"true\",\"params\":{\"query\":true,\"type\":\"phrase\"}},\"query\":{\"match\":{\"FlightDelay\":{\"query\":true,\"type\":\"phrase\"}}},\"$state\":{\"store\":\"appState\"}}]}"
+      }
+    }
+  },
+  {
+    "_id": "814a28e0-e80d-11e8-a5bf-c91c93e50f9d",
+    "_type": "visualization",
+    "_source": {
+      "title": "[Flight Analysis] Flights Over Time",
+      "visState": "{\"title\":\"[Flight Analysis] Flights Over Time\",\"type\":\"area\",\"params\":{\"type\":\"area\",\"grid\":{\"categoryLines\":false,\"style\":{\"color\":\"#eee\"}},\"categoryAxes\":[{\"id\":\"CategoryAxis-1\",\"type\":\"category\",\"position\":\"bottom\",\"show\":true,\"style\":{},\"scale\":{\"type\":\"linear\"},\"labels\":{\"show\":true,\"truncate\":100},\"title\":{}}],\"valueAxes\":[{\"id\":\"ValueAxis-1\",\"name\":\"LeftAxis-1\",\"type\":\"value\",\"position\":\"left\",\"show\":true,\"style\":{},\"scale\":{\"type\":\"linear\",\"mode\":\"normal\"},\"labels\":{\"show\":true,\"rotate\":0,\"filter\":false,\"truncate\":100},\"title\":{\"text\":\"Count\"}}],\"seriesParams\":[{\"show\":\"true\",\"type\":\"area\",\"mode\":\"stacked\",\"data\":{\"label\":\"Count\",\"id\":\"1\"},\"drawLinesBetweenPoints\":true,\"showCircles\":true,\"interpolate\":\"linear\",\"valueAxis\":\"ValueAxis-1\"}],\"addTooltip\":true,\"addLegend\":true,\"legendPosition\":\"right\",\"times\":[],\"addTimeMarker\":false},\"aggs\":[{\"id\":\"1\",\"enabled\":true,\"type\":\"count\",\"schema\":\"metric\",\"params\":{}},{\"id\":\"2\",\"enabled\":true,\"type\":\"date_histogram\",\"schema\":\"segment\",\"params\":{\"field\":\"timestamp\",\"useNormalizedEsInterval\":true,\"interval\":\"auto\",\"time_zone\":\"America/New_York\",\"drop_partials\":false,\"customInterval\":\"2h\",\"min_doc_count\":1,\"extended_bounds\":{}}}]}",
+      "uiStateJSON": "{}",
+      "description": "",
+      "version": 1,
+      "kibanaSavedObjectMeta": {
+        "searchSourceJSON": "{\"index\":\"d3d7af60-4c81-11e8-b3d7-01146121b73d\",\"query\":{\"query\":\"\",\"language\":\"lucene\"},\"filter\":[]}"
+      }
+    }
+  },
+  {
+    "_id": "b35e4a00-e80d-11e8-a5bf-c91c93e50f9d",
+    "_type": "visualization",
+    "_source": {
+      "title": "[Flight Analysis] Distance Traveled",
+      "visState": "{\"title\":\"[Flight Analysis] Distance Traveled\",\"type\":\"histogram\",\"params\":{\"type\":\"histogram\",\"grid\":{\"categoryLines\":false,\"style\":{\"color\":\"#eee\"}},\"categoryAxes\":[{\"id\":\"CategoryAxis-1\",\"type\":\"category\",\"position\":\"bottom\",\"show\":true,\"style\":{},\"scale\":{\"type\":\"linear\"},\"labels\":{\"show\":true,\"truncate\":100},\"title\":{}}],\"valueAxes\":[{\"id\":\"ValueAxis-1\",\"name\":\"LeftAxis-1\",\"type\":\"value\",\"position\":\"left\",\"show\":true,\"style\":{},\"scale\":{\"type\":\"linear\",\"mode\":\"normal\"},\"labels\":{\"show\":true,\"rotate\":0,\"filter\":false,\"truncate\":100},\"title\":{\"text\":\"Miles\"}}],\"seriesParams\":[{\"show\":\"true\",\"type\":\"histogram\",\"mode\":\"stacked\",\"data\":{\"label\":\"Miles\",\"id\":\"1\"},\"valueAxis\":\"ValueAxis-1\",\"drawLinesBetweenPoints\":true,\"showCircles\":true}],\"addTooltip\":true,\"addLegend\":true,\"legendPosition\":\"right\",\"times\":[],\"addTimeMarker\":false},\"aggs\":[{\"id\":\"1\",\"enabled\":true,\"type\":\"sum\",\"schema\":\"metric\",\"params\":{\"field\":\"DistanceMiles\",\"customLabel\":\"Miles\"}},{\"id\":\"2\",\"enabled\":true,\"type\":\"date_histogram\",\"schema\":\"segment\",\"params\":{\"field\":\"timestamp\",\"timeRange\":{\"from\":\"now-24h\",\"to\":\"now\",\"mode\":\"quick\"},\"useNormalizedEsInterval\":true,\"interval\":\"auto\",\"time_zone\":\"America/New_York\",\"drop_partials\":false,\"customInterval\":\"2h\",\"min_doc_count\":1,\"extended_bounds\":{}}}]}",
+      "uiStateJSON": "{}",
+      "description": "",
+      "version": 1,
+      "kibanaSavedObjectMeta": {
+        "searchSourceJSON": "{\"index\":\"d3d7af60-4c81-11e8-b3d7-01146121b73d\",\"query\":{\"query\":\"\",\"language\":\"lucene\"},\"filter\":[]}"
+      }
+    }
+  },
+  {
+    "_id": "bf285dc0-e80e-11e8-a5bf-c91c93e50f9d",
+    "_type": "dashboard",
+    "_source": {
+      "title": "[Flight Analysis] Dashboard",
+      "hits": 0,
+      "description": "",
+      "panelsJSON": "[{\"embeddableConfig\":{},\"gridData\":{\"x\":0,\"y\":0,\"w\":14,\"h\":8,\"i\":\"1\"},\"id\":\"68580d20-e80d-11e8-a5bf-c91c93e50f9d\",\"panelIndex\":\"1\",\"type\":\"visualization\",\"version\":\"7.0.0\"},{\"embeddableConfig\":{},\"gridData\":{\"x\":0,\"y\":8,\"w\":48,\"h\":10,\"i\":\"2\"},\"id\":\"814a28e0-e80d-11e8-a5bf-c91c93e50f9d\",\"panelIndex\":\"2\",\"type\":\"visualization\",\"version\":\"7.0.0\"},{\"embeddableConfig\":{},\"gridData\":{\"x\":0,\"y\":18,\"w\":48,\"h\":10,\"i\":\"3\"},\"id\":\"b35e4a00-e80d-11e8-a5bf-c91c93e50f9d\",\"panelIndex\":\"3\",\"type\":\"visualization\",\"version\":\"7.0.0\"},{\"embeddableConfig\":{},\"gridData\":{\"x\":14,\"y\":0,\"w\":8,\"h\":8,\"i\":\"4\"},\"id\":\"ed0ad890-e80d-11e8-a5bf-c91c93e50f9d\",\"panelIndex\":\"4\",\"type\":\"visualization\",\"version\":\"7.0.0\"},{\"embeddableConfig\":{},\"gridData\":{\"x\":22,\"y\":0,\"w\":12,\"h\":8,\"i\":\"5\"},\"id\":\"2e32afa0-e80e-11e8-a5bf-c91c93e50f9d\",\"panelIndex\":\"5\",\"type\":\"visualization\",\"version\":\"7.0.0\"},{\"embeddableConfig\":{},\"gridData\":{\"x\":34,\"y\":0,\"w\":7,\"h\":8,\"i\":\"6\"},\"id\":\"656df010-e80e-11e8-a5bf-c91c93e50f9d\",\"panelIndex\":\"6\",\"type\":\"visualization\",\"version\":\"7.0.0\"},{\"gridData\":{\"x\":41,\"y\":0,\"w\":7,\"h\":8,\"i\":\"7\"},\"version\":\"7.0.0\",\"panelIndex\":\"7\",\"type\":\"visualization\",\"id\":\"93553060-e80e-11e8-a5bf-c91c93e50f9d\",\"embeddableConfig\":{}}]",
+      "optionsJSON": "{\"darkTheme\":false,\"hidePanelTitles\":false,\"useMargins\":true}",
+      "version": 1,
+      "timeRestore": true,
+      "timeTo": "now",
+      "timeFrom": "now-24h",
+      "refreshInterval": {
+        "pause": true,
+        "value": 0
+      },
+      "kibanaSavedObjectMeta": {
+        "searchSourceJSON": "{\"query\":{\"language\":\"lucene\",\"query\":\"\"},\"filter\":[]}"
+      }
+    }
+  }
+]

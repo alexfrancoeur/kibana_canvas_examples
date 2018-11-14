@@ -4,4 +4,6 @@ This workpad is built off the flight sample data set made available in 6.4. Simp
 
 Drag and drop the Canvas workpad in the Canvas app
 
+![screenshot](https://github.com/alexfrancoeur/kibana_canvas_examples/blob/master/images/flight_analysis_dash.png)
+
 ![screenshot](https://github.com/alexfrancoeur/kibana_canvas_examples/blob/master/images/flight_analysis.png)

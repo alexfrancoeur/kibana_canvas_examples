@@ -8,6 +8,9 @@ This repo is meant to provide some examples for Kibana Canvas workpads. Simply d
 #### [Presentations: EAH Workshop](https://github.com/alexfrancoeur/kibana_canvas_examples/tree/master/presentations/workshop)
 ![screenshot](https://github.com/alexfrancoeur/kibana_canvas_examples/blob/master/images/workshop.png)
 
+#### [Presentations: Intro to Canvas Webinar](https://github.com/alexfrancoeur/kibana_canvas_examples/tree/master/presentations/intro_to_canvas_webinar)
+![screenshot](https://github.com/alexfrancoeur/kibana_canvas_examples/blob/master/images/webinar.png)
+
 #### [Demo Data: Conditional Assets](https://github.com/alexfrancoeur/kibana_canvas_examples/tree/master/demo_data/conditional_assets)
 ![screenshot](https://github.com/alexfrancoeur/kibana_canvas_examples/blob/master/images/conditional_assets_01.png)
 

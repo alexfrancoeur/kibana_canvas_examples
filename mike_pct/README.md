@@ -4,8 +4,4 @@ Download the `snapshots.zip` file, unzip and [follow the documentation](https://
 
 If you're stumbling upon this some how online, make sure you read the blog post series for the full story. [Part 1](https://www.elastic.co/blog/hiking-the-pacific-crest-trail-with-the-elastic-stack), [Part 2](https://www.elastic.co/blog/hiking-the-pacific-crest-trail-with-the-elastic-stack-part-2-hitting-1000) and Part 3 (coming soon).
 
-![screenshot](https://github.com/alexfrancoeur/kibana_canvas_examples/blob/master/images/pct_workpad_1.png)
-
-![screenshot](https://github.com/alexfrancoeur/kibana_canvas_examples/blob/master/images/pct_workpad_2.png)
-
-![screenshot](https://github.com/alexfrancoeur/kibana_canvas_examples/blob/master/images/pct_workpad_3.png)
+![screenshot](https://github.com/alexfrancoeur/kibana_canvas_examples/blob/master/images/pct_workpad_1.png) ![screenshot](https://github.com/alexfrancoeur/kibana_canvas_examples/blob/master/images/pct_workpad_2.png) ![screenshot](https://github.com/alexfrancoeur/kibana_canvas_examples/blob/master/images/pct_workpad_3.png)

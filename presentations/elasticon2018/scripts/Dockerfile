@@ -15,4 +15,4 @@ COPY canvas_intro_stats.js .
 
 ENV ELASTICSEARCH_HOST="host.docker.internal"
 
-ENTRYPOINT ["yarn", "start"]
+ENTRYPOINT ["npm", "start"]

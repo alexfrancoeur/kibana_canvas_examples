@@ -12,7 +12,7 @@ This example is from the webinar [Canvas: A Single (and Stunning) Pane of Glass 
 ```sql
 SELECT COUNT(DISTINCT context.service.name) as services,
 AVG(transaction.duration.us) as duration, COUNT(DISTINCT transaction.id) as transactions FROM "apm*"
-WHERE "@timestamp" > NOW() - INTERVAL 1 DAY
+WHERE "@timestamp" > NOW() - INTERVAL 5 MINUTES
 AND "@timestamp" <= NOW()
 ```
 #### Expression
@@ -21,7 +21,7 @@ filters
 | essql
   query="SELECT COUNT(DISTINCT context.service.name) as services,
 AVG(transaction.duration.us) as duration, COUNT(DISTINCT transaction.id) as transactions FROM \"apm*\"
-WHERE \"@timestamp\" > NOW() - INTERVAL 1 DAY
+WHERE \"@timestamp\" > NOW() - INTERVAL 5 MINUTES
 AND \"@timestamp\" <= NOW()"
 | math "services"
 | metric "Services"
@@ -37,7 +37,7 @@ AND \"@timestamp\" <= NOW()"
 ```sql
 SELECT COUNT(DISTINCT context.service.name) as services,
 AVG(transaction.duration.us) as duration, COUNT(DISTINCT transaction.id) as transactions FROM "apm*"
-WHERE "@timestamp" > NOW() - INTERVAL 1 DAY
+WHERE "@timestamp" > NOW() - INTERVAL 5 MINUTES
 AND "@timestamp" <= NOW()
 ```
 #### Expression
@@ -46,7 +46,7 @@ filters
 | essql
   query="SELECT COUNT(DISTINCT context.service.name) as services,
 AVG(transaction.duration.us) as duration, COUNT(DISTINCT transaction.id) as transactions FROM \"apm*\"
-WHERE \"@timestamp\" > NOW() - INTERVAL 1 DAY
+WHERE \"@timestamp\" > NOW() - INTERVAL 5 MINUTES
 AND \"@timestamp\" <= NOW()"
 | math "transactions"
 | formatNumber "0a"
@@ -63,7 +63,7 @@ AND \"@timestamp\" <= NOW()"
 ```sql
 SELECT COUNT(DISTINCT context.service.name) as services,
 AVG(transaction.duration.us) as duration, COUNT(DISTINCT transaction.id) as transactions FROM "apm*"
-WHERE "@timestamp" > NOW() - INTERVAL 1 DAY
+WHERE "@timestamp" > NOW() - INTERVAL 5 MINUTES
 AND "@timestamp" <= NOW()
 ```
 #### Expression
@@ -72,7 +72,7 @@ filters
 | essql
   query="SELECT COUNT(DISTINCT context.service.name) as services,
 AVG(transaction.duration.us) as duration, COUNT(DISTINCT transaction.id) as transactions FROM \"apm*\"
-WHERE \"@timestamp\" > NOW() - INTERVAL 1 DAY
+WHERE \"@timestamp\" > NOW() - INTERVAL 5 MINUTES
 AND \"@timestamp\" <= NOW()"
 | math "duration / 1000"
 | formatNumber "0a"
@@ -91,7 +91,7 @@ AND \"@timestamp\" <= NOW()"
 SELECT COUNT(*) total
 FROM "apm*"
 WHERE QUERY('processor.event: error')
-AND "@timestamp" > NOW() - INTERVAL 1 DAY
+AND "@timestamp" > NOW() - INTERVAL 5 MINUTES
 AND "@timestamp" <= NOW()
 ```
 #### Expression
@@ -101,7 +101,7 @@ filters
   query="SELECT COUNT(*) total
 FROM \"apm*\"
 WHERE QUERY('processor.event: error')
-AND \"@timestamp\" > NOW() - INTERVAL 1 DAY
+AND \"@timestamp\" > NOW() - INTERVAL 5 MINUTES
 AND \"@timestamp\" <= NOW()"
 | math "total"
 | formatNumber "0.00a"
@@ -119,7 +119,7 @@ AND \"@timestamp\" <= NOW()"
 SELECT context.service.name as service, COUNT(*) total
 FROM "apm*"
 WHERE QUERY('processor.event: error')
-AND "@timestamp" > NOW() - INTERVAL 1 DAY
+AND "@timestamp" > NOW() - INTERVAL 5 MINUTES
 AND "@timestamp" <= NOW()
 GROUP BY service
 ORDER BY total desc
@@ -131,7 +131,7 @@ filters
   query="SELECT context.service.name as service, COUNT(*) total
 FROM \"apm*\"
 WHERE QUERY('processor.event: error')
-AND \"@timestamp\" > NOW() - INTERVAL 1 DAY
+AND \"@timestamp\" > NOW() - INTERVAL 5 MINUTES
 AND \"@timestamp\" <= NOW()
 GROUP BY service
 ORDER BY total desc"
@@ -148,7 +148,7 @@ ORDER BY total desc"
 SELECT HISTOGRAM("@timestamp", INTERVAL 1 MINUTE) minute, context.service.name service, COUNT(*) total
 FROM "apm*"
 WHERE QUERY('processor.event: error')
-AND "@timestamp" > NOW() - INTERVAL 1 DAY
+AND "@timestamp" > NOW() - INTERVAL 5 MINUTES
 AND "@timestamp" <= NOW()
 GROUP BY minute, service
 ORDER BY minute
@@ -160,7 +160,7 @@ filters
   query="SELECT HISTOGRAM(\"@timestamp\", INTERVAL 1 MINUTE) minute, context.service.name service, COUNT(*) total
 FROM \"apm*\"
 WHERE QUERY('processor.event: error')
-AND \"@timestamp\" > NOW() - INTERVAL 1 DAY
+AND \"@timestamp\" > NOW() - INTERVAL 5 MINUTES
 AND \"@timestamp\" <= NOW()
 GROUP BY minute, service
 ORDER BY minute"
@@ -177,7 +177,7 @@ ORDER BY minute"
 SELECT HISTOGRAM("@timestamp", INTERVAL 1 MINUTE) minute, context.service.name service, COUNT(*) total
 FROM "apm*"
 WHERE QUERY('processor.event: error')
-AND "@timestamp" > NOW() - INTERVAL 1 DAY
+AND "@timestamp" > NOW() - INTERVAL 5 MINUTES
 AND "@timestamp" <= NOW()
 GROUP BY minute, service
 ORDER BY minute
@@ -189,7 +189,7 @@ filters
   query="SELECT HISTOGRAM(\"@timestamp\", INTERVAL 1 MINUTE) minute, context.service.name service, COUNT(*) total
 FROM \"apm*\"
 WHERE QUERY('processor.event: error')
-AND \"@timestamp\" > NOW() - INTERVAL 1 DAY
+AND \"@timestamp\" > NOW() - INTERVAL 5 MINUTES
 AND \"@timestamp\" <= NOW()
 GROUP BY minute, service
 ORDER BY minute"
@@ -207,7 +207,7 @@ SELECT MAX('system.load.1') as max_load
 FROM "metricbeat*"
 WHERE beat.hostname = 'gke-staging-demo-elastic-default-pool-25a0fc90-5kv2'
 AND metricset.name = 'load'
-AND "@timestamp" > NOW() - INTERVAL 1 DAY
+AND "@timestamp" > NOW() - INTERVAL 5 MINUTES
 AND "@timestamp" <= NOW()
 ```
 #### Expression
@@ -217,7 +217,7 @@ image mode="contain"
 FROM \"metricbeat*\"
 WHERE beat.hostname = 'gke-staging-demo-elastic-default-pool-25a0fc90-5kv2'
 AND metricset.name = 'load'
-AND \"@timestamp\" > NOW() - INTERVAL 1 DAY
+AND \"@timestamp\" > NOW() - INTERVAL 5 MINUTES
 AND \"@timestamp\" <= NOW()" | getCell "max_load" | if {lt 100} then="asset-638ca6e2-0317-4a59-a1d3-0b1f578febc6" else="asset-45c0d84e-7c77-4fd2-b162-dd85016cc3d6"}}
 | render
 ```
@@ -232,7 +232,7 @@ SELECT MAX('system.load.1') as max_load
 FROM "metricbeat*"
 WHERE beat.hostname = 'gke-staging-demo-elastic-default-pool-25a0fc90-5kv2'
 AND metricset.name = 'load'
-AND "@timestamp" > NOW() - INTERVAL 1 DAY
+AND "@timestamp" > NOW() - INTERVAL 5 MINUTES
 AND "@timestamp" <= NOW()
 ```
 #### Expression
@@ -243,7 +243,7 @@ filters
 FROM \"metricbeat*\"
 WHERE beat.hostname = 'gke-staging-demo-elastic-default-pool-25a0fc90-5kv2'
 AND metricset.name = 'load'
-AND \"@timestamp\" > NOW() - INTERVAL 1 DAY
+AND \"@timestamp\" > NOW() - INTERVAL 5 MINUTES
 AND \"@timestamp\" <= NOW()"
 | getCell "max_load"
 | if {lt 100}
@@ -260,7 +260,7 @@ AND \"@timestamp\" <= NOW()"
 SELECT COUNT(DISTINCT kubernetes.container.id) as count
 FROM "metricbeat-*"
 WHERE kubernetes.container.status.phase = 'running'
-AND "@timestamp" > NOW() - INTERVAL 1 DAY
+AND "@timestamp" > NOW() - INTERVAL 5 MINUTES
 AND "@timestamp" <= NOW()
 ```
 #### Expression
@@ -270,7 +270,7 @@ filters
   query="SELECT COUNT(DISTINCT kubernetes.container.id) as count
 FROM \"metricbeat-*\"
 WHERE kubernetes.container.status.phase = 'running'
-AND \"@timestamp\" > NOW() - INTERVAL 1 DAY
+AND \"@timestamp\" > NOW() - INTERVAL 5 MINUTES
 AND \"@timestamp\" <= NOW()"
 | markdown "**" {getCell "count"} "** Kubernetes pods running"
   font={font family="'Open Sans', Helvetica, Arial, sans-serif" size=24 align="left" color="#000000" weight="normal" underline=false italic=false}
@@ -285,7 +285,7 @@ AND \"@timestamp\" <= NOW()"
 SELECT COUNT(DISTINCT kubernetes.container.id)/10 as count
 FROM "metricbeat-*"
 WHERE kubernetes.container.status.phase = 'running'
-AND "@timestamp" > NOW() - INTERVAL 1 DAY
+AND "@timestamp" > NOW() - INTERVAL 5 MINUTES
 AND "@timestamp" <= NOW()
 ```
 #### Expression
@@ -295,7 +295,7 @@ filters
   query="SELECT COUNT(DISTINCT kubernetes.container.id)/10 as count
 FROM \"metricbeat-*\"
 WHERE kubernetes.container.status.phase = 'running'
-AND \"@timestamp\" > NOW() - INTERVAL 1 DAY
+AND \"@timestamp\" > NOW() - INTERVAL 5 MINUTES
 AND \"@timestamp\" <= NOW()"
 | math "count"
 | repeatImage image={asset "asset-b24781f0-75d3-4e7e-880a-496a3658a017"} size=40 max=13
@@ -310,7 +310,7 @@ AND \"@timestamp\" <= NOW()"
 ```sql
 SELECT "monitor.host" host,  MAX("monitor.duration.us") as duration
 FROM "heartbeat*"
-WHERE "@timestamp" > NOW() - INTERVAL 1 DAY
+WHERE "@timestamp" > NOW() - INTERVAL 5 MINUTES
 AND "@timestamp" <= NOW()
 AND host IS NOT NULL
 GROUP BY host
@@ -322,7 +322,7 @@ filters
 | essql
   query="SELECT \"monitor.host\" host,  MAX(\"monitor.duration.us\") as duration
 FROM \"heartbeat*\"
-WHERE \"@timestamp\" > NOW() - INTERVAL 1 DAY
+WHERE \"@timestamp\" > NOW() - INTERVAL 5 MINUTES
 AND \"@timestamp\" <= NOW()
 AND host IS NOT NULL
 GROUP BY host
@@ -340,7 +340,7 @@ ORDER BY duration DESC"
 ```sql
 SELECT "monitor.host" host, MAX("monitor.duration.us") as duration
 FROM "heartbeat*"
-WHERE "@timestamp" > NOW() - INTERVAL 1 DAY
+WHERE "@timestamp" > NOW() - INTERVAL 5 MINUTES
 AND "@timestamp" <= NOW()
 AND host IS NOT NULL
 GROUP BY host
@@ -352,7 +352,7 @@ filters
 | essql
   query="SELECT \"monitor.host\" host, MAX(\"monitor.duration.us\") as duration
 FROM \"heartbeat*\"
-WHERE \"@timestamp\" > NOW() - INTERVAL 1 DAY
+WHERE \"@timestamp\" > NOW() - INTERVAL 5 MINUTES
 AND \"@timestamp\" <= NOW()
 AND host IS NOT NULL
 GROUP BY host

@@ -134,33 +134,6 @@ ORDER BY total desc"
 
 #### SQL
 ```sql
-SELECT error.exception.message error, "@timestamp", context.service.name service
-FROM "apm*"
-WHERE QUERY('processor.event: error')
-ORDER BY "@timestamp" desc
-LIMIT 1
-```
-#### Expression
-```
-filters
-| essql
-  query="SELECT error.exception.message error, \"@timestamp\", context.service.name service
-FROM \"apm*\"
-WHERE QUERY('processor.event: error')
-ORDER BY \"@timestamp\" desc
-LIMIT 1"
-| markdown "Most recent error:
-**" {getCell "error"} "**
-from service **" {getCell "service"} "**
-at **" {getCell "@timestamp"} "**"
-  font={font family="'Open Sans', Helvetica, Arial, sans-serif" size=16 align="left" color="#000000" weight="normal" underline=false italic=false}
-| render
-```
----
-### APM Most Recent Error
-
-#### SQL
-```sql
 SELECT HISTOGRAM("@timestamp", INTERVAL 1 MINUTE) minute, context.service.name service, COUNT(*) total
 FROM "apm*"
 WHERE QUERY('processor.event: error')
@@ -184,6 +157,34 @@ ORDER BY minute"
 | plot defaultStyle={seriesStyle lines=1 fill=1} legend=false yaxis=false palette={palette "#7ECAE3" "#003A4D" gradient=true}
 | render
 ```
+---
+### APM Most Recent Error
+
+#### SQL
+```sql
+SELECT error.exception.message error, "@timestamp", context.service.name service
+FROM "apm*"
+WHERE QUERY('processor.event: error')
+ORDER BY "@timestamp" desc
+LIMIT 1
+```
+#### Expression
+```
+filters
+| essql
+  query="SELECT error.exception.message error, \"@timestamp\", context.service.name service
+FROM \"apm*\"
+WHERE QUERY('processor.event: error')
+ORDER BY \"@timestamp\" desc
+LIMIT 1"
+| markdown "Most recent error:
+**" {getCell "error"} "**
+from service **" {getCell "service"} "**
+at **" {getCell "@timestamp"} "**"
+  font={font family="'Open Sans', Helvetica, Arial, sans-serif" size=16 align="left" color="#000000" weight="normal" underline=false italic=false}
+| render
+```
+
 ---
 ### Infra Host Health Image
 
@@ -261,7 +262,7 @@ AND \"@timestamp\" <= NOW()"
 | render
 ```
 ---
-### Infra Kubernetes Pods Markdown
+### Infra Kubernetes Pods Image Repeat
 
 #### SQL
 ```sql
@@ -400,8 +401,6 @@ LIMIT 1"
 ```
 
 #### BONUS! Conditional Uptime Services Monitored Histogram
-
-![screenshot](https://github.com/alexfrancoeur/kibana_canvas_examples/blob/master/images/uptime_histogram_conditional.gif)
 
 ```
 esdocs index="heartbe*" fields="monitor.duration.us, @timestamp, monitor.host" sort="@timestamp, DESC" query="_exists_:monitor.host"

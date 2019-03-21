@@ -276,7 +276,7 @@ AND \"@timestamp\" <= NOW()"
 | render
 ```
 ---
-### Infra Kubernetes Pods Markdown
+### Infra Kubernetes Pods Image Repeat
 ![screenshot](https://github.com/alexfrancoeur/kibana_canvas_examples/blob/master/images/infra_pods_image_repeat.png)
 
 #### SQL

@@ -6,7 +6,7 @@ This example is from the webinar [Canvas: A Single (and Stunning) Pane of Glass 
 
 ---
 ### APM Service Count Metric
-![screenshot](https://github.com/alexfrancoeur/kibana_canvas_examples/blob/master/images/apm_duration_metric.png)
+![screenshot](https://github.com/alexfrancoeur/kibana_canvas_examples/blob/master/images/apm_services_metric.png)
 
 #### SQL
 ```sql

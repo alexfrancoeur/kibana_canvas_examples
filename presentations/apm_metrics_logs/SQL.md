@@ -1,12 +1,6 @@
 ## Canvas: A Single (and Stunning) Pane of Glass for Logs, Metrics, and APM
-
-This example is from the webinar [Canvas: A Single (and Stunning) Pane of Glass for Logs, Metrics, and APM](https://www.elastic.co/webinars/canvas-a-single-and-stunning-pane-of-glass-for-logs-metrics-and-apm)
-
-![screenshot](https://github.com/alexfrancoeur/kibana_canvas_examples/blob/master/images/apm_metrics_logs.png)
-
 ---
 ### APM Service Count Metric
-![screenshot](https://github.com/alexfrancoeur/kibana_canvas_examples/blob/master/images/apm_duration_metric.png)
 
 #### SQL
 ```sql
@@ -31,7 +25,6 @@ AND \"@timestamp\" <= NOW()"
 ```
 ---
 ### APM Transaction Count Metric
-![screenshot](https://github.com/alexfrancoeur/kibana_canvas_examples/blob/master/images/apm_transactions_metric.png)
 
 #### SQL
 ```sql
@@ -57,7 +50,6 @@ AND \"@timestamp\" <= NOW()"
 ```
 ---
 ### APM Average Transaction Duration Metric
-![screenshot](https://github.com/alexfrancoeur/kibana_canvas_examples/blob/master/images/apm_duration_metric.png)
 
 #### SQL
 ```sql
@@ -84,7 +76,6 @@ AND \"@timestamp\" <= NOW()"
 
 ---
 ### APM Error Count Metric
-![screenshot](https://github.com/alexfrancoeur/kibana_canvas_examples/blob/master/images/apm_errors_metric.png)
 
 #### SQL
 ```sql
@@ -112,7 +103,6 @@ AND \"@timestamp\" <= NOW()"
 ```
 ---
 ### APM Services Error Bar Chart
-![screenshot](https://github.com/alexfrancoeur/kibana_canvas_examples/blob/master/images/apm_services_error_count.png)
 
 #### SQL
 ```sql
@@ -141,7 +131,6 @@ ORDER BY total desc"
 ```
 ---
 ### APM Services Error Count Over Time
-![screenshot](https://github.com/alexfrancoeur/kibana_canvas_examples/blob/master/images/apm_services_error_count_over_time.png)
 
 #### SQL
 ```sql
@@ -170,7 +159,6 @@ ORDER BY minute"
 ```
 ---
 ### APM Most Recent Error
-![screenshot](https://github.com/alexfrancoeur/kibana_canvas_examples/blob/master/images/apm_services_most_recent_error.png)
 
 #### SQL
 ```sql
@@ -199,7 +187,6 @@ ORDER BY minute"
 ```
 ---
 ### Infra Host Health Image
-![screenshot](https://github.com/alexfrancoeur/kibana_canvas_examples/blob/master/images/infra_host_image.png)
 
 #### SQL
 ```sql
@@ -224,7 +211,6 @@ AND \"@timestamp\" <= NOW()" | getCell "max_load" | if {lt 100} then="asset-638c
 
 ---
 ### Infra Host Health Markdown
-![screenshot](https://github.com/alexfrancoeur/kibana_canvas_examples/blob/master/images/infra_host_markdown.png)
 
 #### SQL
 ```sql
@@ -253,7 +239,6 @@ AND \"@timestamp\" <= NOW()"
 ```
 ---
 ### Infra Kubernetes Pods Markdown
-![screenshot](https://github.com/alexfrancoeur/kibana_canvas_examples/blob/master/images/infra_pods_markdown.png)
 
 #### SQL
 ```sql
@@ -278,7 +263,6 @@ AND \"@timestamp\" <= NOW()"
 ```
 ---
 ### Infra Kubernetes Pods Markdown
-![screenshot](https://github.com/alexfrancoeur/kibana_canvas_examples/blob/master/images/infra_pods_image_repeat.png)
 
 #### SQL
 ```sql
@@ -303,8 +287,6 @@ AND \"@timestamp\" <= NOW()"
 ```
 ---
 ### Uptime Services Monitored Markdown
-![screenshot](https://github.com/alexfrancoeur/kibana_canvas_examples/blob/master/images/uptime_markdown_1.png)
-![screenshot](https://github.com/alexfrancoeur/kibana_canvas_examples/blob/master/images/uptime_markdown_2.png)
 
 #### SQL
 ```sql
@@ -334,7 +316,6 @@ ORDER BY duration DESC"
 ```
 ---
 ### Uptime Services Monitored Histogram
-![screenshot](https://github.com/alexfrancoeur/kibana_canvas_examples/blob/master/images/uptime_histogram.png)
 
 #### SQL
 ```sql
@@ -362,10 +343,8 @@ ORDER BY duration desc"
   font={font size=14 family="'Open Sans', Helvetica, Arial, sans-serif" color="#000000" align="left"} yaxis=false
 | render
 ```
-
 ---
 ### Filebeat Most Recent Log
-![screenshot](https://github.com/alexfrancoeur/kibana_canvas_examples/blob/master/images/filebeat_log_markdown.png)
 
 #### SQL
 ```sql

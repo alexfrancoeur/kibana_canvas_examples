@@ -134,27 +134,26 @@ ORDER BY total desc"
 
 #### SQL
 ```sql
-SELECT HISTOGRAM("@timestamp", INTERVAL 1 MINUTE) minute, context.service.name service, COUNT(*) total
+SELECT error.exception.message error, "@timestamp", context.service.name service
 FROM "apm*"
 WHERE QUERY('processor.event: error')
-AND "@timestamp" > NOW() - INTERVAL 15 MINUTES
-AND "@timestamp" <= NOW()
-GROUP BY minute, service
-ORDER BY minute
+ORDER BY "@timestamp" desc
+LIMIT 1
 ```
 #### Expression
 ```
 filters
 | essql
-  query="SELECT HISTOGRAM(\"@timestamp\", INTERVAL 1 MINUTE) minute, context.service.name service, COUNT(*) total
+  query="SELECT error.exception.message error, \"@timestamp\", context.service.name service
 FROM \"apm*\"
 WHERE QUERY('processor.event: error')
-AND \"@timestamp\" > NOW() - INTERVAL 15 MINUTES
-AND \"@timestamp\" <= NOW()
-GROUP BY minute, service
-ORDER BY minute"
-| pointseries x="minute" y="total" color="service"
-| plot defaultStyle={seriesStyle lines=1 fill=1} legend=false yaxis=false palette={palette "#7ECAE3" "#003A4D" gradient=true}
+ORDER BY \"@timestamp\" desc
+LIMIT 1"
+| markdown "Most recent error:
+**" {getCell "error"} "**
+from service **" {getCell "service"} "**
+at **" {getCell "@timestamp"} "**"
+  font={font family="'Open Sans', Helvetica, Arial, sans-serif" size=16 align="left" color="#000000" weight="normal" underline=false italic=false}
 | render
 ```
 ---

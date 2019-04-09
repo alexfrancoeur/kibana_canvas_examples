@@ -5,6 +5,9 @@ This repo is meant to provide some examples for Kibana Canvas workpads. Simply d
 #### [Beats: Filebeat Log Analysis](https://github.com/alexfrancoeur/kibana_canvas_examples/tree/master/beats/filebeat_log_analysis)
 ![screenshot](https://github.com/alexfrancoeur/kibana_canvas_examples/blob/master/images/filebeat-fullscreen.png)
 
+#### [Beats: Filebeat Suricata Events](https://github.com/alexfrancoeur/kibana_canvas_examples/tree/master/beats/filebeat_suricata_events)
+![screenshot](https://github.com/alexfrancoeur/kibana_canvas_examples/blob/master/images/filbeat_suricata_events.png)
+
 #### [Presentations: What is Canvas?](https://github.com/alexfrancoeur/kibana_canvas_examples/tree/master/presentations/what_is_canvas)
 ![screenshot](https://github.com/alexfrancoeur/kibana_canvas_examples/blob/master/images/what_is_canvas.gif)
 

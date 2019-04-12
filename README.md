@@ -8,6 +8,9 @@ This repo is meant to provide some examples for Kibana Canvas workpads. Simply d
 #### [Beats: Filebeat Suricata Events](https://github.com/alexfrancoeur/kibana_canvas_examples/tree/master/beats/filebeat_suricata_events)
 ![screenshot](https://github.com/alexfrancoeur/kibana_canvas_examples/blob/master/images/filbeat_suricata_events.png)
 
+#### [Presentations: Canvas Deep Dive](https://github.com/alexfrancoeur/kibana_canvas_examples/tree/master/presentations/canvas_deep_dive)
+![screenshot](https://github.com/alexfrancoeur/kibana_canvas_examples/blob/master/images/deep_dive2.png)
+
 #### [Presentations: What is Canvas?](https://github.com/alexfrancoeur/kibana_canvas_examples/tree/master/presentations/what_is_canvas)
 ![screenshot](https://github.com/alexfrancoeur/kibana_canvas_examples/blob/master/images/what_is_canvas.gif)
 
@@ -40,6 +43,9 @@ This repo is meant to provide some examples for Kibana Canvas workpads. Simply d
 
 #### [Sample Data: eCommerce](https://github.com/alexfrancoeur/kibana_canvas_examples/tree/master/sample_data/ecommerce)
 ![screenshot](https://github.com/alexfrancoeur/kibana_canvas_examples/blob/master/images/ecommerce01.png)
+
+#### [Public Data: Twitter Sentiment Analysis](https://github.com/alexfrancoeur/kibana_canvas_examples/tree/master/public_data_sets/twitter_analysis)
+![screenshot](https://github.com/alexfrancoeur/kibana_canvas_examples/blob/master/images/twitter_analysis.png)
 
 #### [Public Data: Boston Energy and Water Metrics](https://github.com/alexfrancoeur/kibana_canvas_examples/tree/master/public_data_sets/boston_energy_water_metrics_2017)
 ![screenshot](https://github.com/alexfrancoeur/kibana_canvas_examples/blob/master/images/boston_workpad.png)

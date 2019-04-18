@@ -20,8 +20,11 @@ This repo is meant to provide some examples for Kibana Canvas workpads. Simply d
 #### [Presentations: Intro to Canvas Webinar](https://github.com/alexfrancoeur/kibana_canvas_examples/tree/master/presentations/intro_to_canvas_webinar)
 ![screenshot](https://github.com/alexfrancoeur/kibana_canvas_examples/blob/master/images/webinar.png)
 
-#### [Presentations: Intro to Canvas Webinar](https://github.com/alexfrancoeur/kibana_canvas_examples/tree/master/presentations/apm_metrics_logs)
+#### [Presentations: APM, Metrics and Logs](https://github.com/alexfrancoeur/kibana_canvas_examples/tree/master/presentations/apm_metrics_logs)
 ![screenshot](https://github.com/alexfrancoeur/kibana_canvas_examples/blob/master/images/apm_metrics_logs.png)
+
+#### [Presentations: FOSS4G](https://github.com/alexfrancoeur/kibana_canvas_examples/tree/master/presentations/foss4g_2019_NA)
+![screenshot](https://github.com/alexfrancoeur/kibana_canvas_examples/blob/master/images/foss4g2.png)
 
 #### [Mike PCT](https://github.com/alexfrancoeur/kibana_canvas_examples/tree/master/mike_pct)
 ![screenshot](https://github.com/alexfrancoeur/kibana_canvas_examples/blob/master/images/pct_workpad_1.png)

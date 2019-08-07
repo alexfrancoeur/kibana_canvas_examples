@@ -3,7 +3,7 @@
 This repo is meant to provide some examples for Kibana Canvas workpads. Simply download the workpad and drag it into Canvas. If there's a data set associated with it, follow the instructions to ingest the data.
 
 #### [Office Display: Elastic Themed Office Display](https://github.com/alexfrancoeur/kibana_canvas_examples/tree/master/office_display)
-![screenshot](https://github.com/alexfrancoeur/kibana_canvas_examples/blob/master/images/office_display.gif)
+![screenshot](https://github.com/alexfrancoeur/kibana_canvas_examples/blob/master/images/canvas_office.gif)
 
 #### [Beats: Filebeat Log Analysis](https://github.com/alexfrancoeur/kibana_canvas_examples/tree/master/beats/filebeat_log_analysis)
 ![screenshot](https://github.com/alexfrancoeur/kibana_canvas_examples/blob/master/images/filebeat-fullscreen.png)
